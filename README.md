@@ -3,7 +3,7 @@
 ### Sobre a Expansão
 *Nas masmorras profundas, a morte nem sempre encerra o sofrimento.*
 
-Esta adaptação de **Fear & Hunger** utiliza as regras de **Sangue Escuro** para conduzir você por um mundo decrépito, onde a fome corrói o corpo e os sussurros de antigos deuses oferecem poder a preços irreversíveis.
+Esta adaptação de **Fear & Hunger** utiliza as regras de **Sangue Escuro RPG** para conduzir você por um mundo decrépito, onde a fome corrói o corpo e os sussurros de antigos deuses oferecem poder a preços irreversíveis.
 
 Um único golpe pode arrancar um membro ou encerrar uma vida. Ataques letais, mutilações, infecções progressivas e recursos escassos tornam cada confronto uma aposta perigosa. Conhecer a fraqueza de uma criatura pode salvar o grupo; ignorar seus sinais pode condená-lo.
 
