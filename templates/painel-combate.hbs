@@ -1,0 +1,25 @@
+<section class="se-painel">
+  <h3>Fear & Hunger: Combate</h3>
+  <p>Ataques neste turno: <strong>{{ataques}}/{{maxAtaques}}</strong>{{#if uniao}} (União da Carne){{/if}}</p>
+  <div class="se-duas">
+    <label class="se-check"><input type="checkbox" name="flags.sangue-escuro-fear-and-hunger.declaracao.letal" {{checked letal}}> Ataque letal no próximo ataque</label>
+    <label>Parte do corpo (alvo: {{alvoNome}})
+      <select name="flags.sangue-escuro-fear-and-hunger.declaracao.parte">{{selectOptions opPartes selected=parteSel}}</select>
+    </label>
+  </div>
+  <div class="se-botoes-grade">
+    <button type="button" class="se-botao {{#if esquiva}}ativo{{/if}}" data-action="extensao" data-ext="fh-combate" data-acao="esquiva" title="1 ação: ataques contra você têm Desvantagem até o próximo turno">Esquiva</button>
+    <button type="button" class="se-botao" data-action="extensao" data-ext="fh-combate" data-acao="conceder" title="1 ação: um aliado realiza uma ação imediata">Conceder ação</button>
+    <button type="button" class="se-botao perigo" data-action="extensao" data-ext="fh-combate" data-acao="autossacrificio" title="Ataque letal contra si mesmo">Autossacrifício</button>
+  </div>
+  {{#if mutiladas}}
+  <div class="se-chips">
+    {{#each mutiladas}}
+    <span class="se-chip ativa">{{this}} destruída
+      <button type="button" class="se-icone" data-action="extensao" data-ext="fh-combate" data-acao="restaurarParte" data-parte="{{this}}" title="Marcar como restaurada" aria-label="Restaurar {{this}}">✕</button>
+    </span>
+    {{/each}}
+  </div>
+  {{/if}}
+  <p class="se-dica">Ataque letal: a arma precisa permitir. Mirar a cabeça dá Desvantagem (exceto contra alvo Agarrado, Caído ou Incapacitado). A parte é destruída se o dano de um único ataque, já depois da PR, alcançar o limite. Limites: cabeça 8, braço 5, perna 6.</p>
+</section>

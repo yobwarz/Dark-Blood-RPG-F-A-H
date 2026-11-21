@@ -1,0 +1,48 @@
+<section class="se-painel">
+  <h3>Fobias
+    <span class="se-novo">
+      <button type="button" class="se-botao pequeno" data-action="extensao" data-ext="fh-fobias" data-acao="sortear">Sortear (1d10)</button>
+      <button type="button" class="se-botao pequeno" data-action="extensao" data-ext="fh-fobias" data-acao="adicionar">Adicionar</button>
+      <button type="button" class="se-botao pequeno" data-action="extensao" data-ext="fh-fobias" data-acao="retorno" title="Após retornar: 1d100, 01–10 adquire uma fobia">Fobia após retorno</button>
+    </span>
+  </h3>
+  {{#each fobias}}
+  <div class="se-linha-item" style="grid-template-columns: 1fr auto">
+    <div class="se-item-info">
+      <strong>{{nome}}{{#if ativa}} <span class="se-selo-aviso">Ativa</span>{{/if}}</strong>
+      <small>{{gatilho}}</small>
+    </div>
+    <div class="se-item-acoes">
+      {{#if ativa}}
+      <button type="button" class="se-botao" data-action="extensao" data-ext="fh-fobias" data-acao="recuperar" data-i="{{i}}" title="1 ação, Vontade CD 12 (+2 com auxílio)">Recuperar controle</button>
+      <button type="button" class="se-icone" data-action="extensao" data-ext="fh-fobias" data-acao="desativar" data-i="{{i}}" title="Encerrar a ativação" aria-label="Encerrar a ativação">✓</button>
+      {{else}}
+      <button type="button" class="se-botao" data-action="extensao" data-ext="fh-fobias" data-acao="testar" data-i="{{i}}" title="Vontade CD 12 ao perceber o gatilho">Testar gatilho</button>
+      {{/if}}
+      <button type="button" class="se-icone" data-action="extensao" data-ext="fh-fobias" data-acao="remover" data-i="{{i}}" aria-label="Remover fobia">✕</button>
+    </div>
+  </div>
+  {{else}}
+  <p class="se-vazio">Nenhuma fobia.</p>
+  {{/each}}
+  <p class="se-dica">Fobia ativa: ataques da criatura que a ativa ganham +2 para acertar você; testes diretamente ligados ao gatilho sofrem −2. Fobias não acumulam entre si.</p>
+</section>
+
+<section class="se-painel">
+  <h3>Infecção de ferimento
+    <span class="se-novo">
+      <button type="button" class="se-botao pequeno" data-action="extensao" data-ext="fh-fobias" data-acao="contrair">Contrair (CON CD 12)</button>
+      {{#if inf.ativa}}
+      <button type="button" class="se-botao pequeno" data-action="extensao" data-ext="fh-fobias" data-acao="hora">Passar 1 hora</button>
+      <button type="button" class="se-botao pequeno" data-action="extensao" data-ext="fh-fobias" data-acao="tratar">Tratamento concluído</button>
+      {{/if}}
+    </span>
+  </h3>
+  {{#if inf.ativa}}
+  <p>Estágio: <strong>{{inf.estagio}}</strong> · progresso {{inf.contagem}} (muda em {{inf.meta}})</p>
+  <p class="se-dica">Tratamento: {{inf.tratamento}}</p>
+  {{else}}
+  <p class="se-vazio">Sem infecção de ferimento.</p>
+  {{/if}}
+  <p class="se-dica">Leve: 1 dano por hora (ignora PR); após 3 pontos vira Grave. Grave: 1 dano por hora e −2 em testes físicos; após 2 horas vira Crítica. Crítica: deslocamento pela metade; após 1 hora, a morte. A infecção só é encerrada por tratamento.</p>
+</section>

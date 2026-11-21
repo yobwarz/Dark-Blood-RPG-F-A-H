@@ -1,0 +1,4 @@
+/* Contraste dos pictogramas em fichas, inventários e compêndios. */
+img[src^="modules/sangue-escuro-fear-and-hunger/assets/icones/"] { background-color:#20252b; object-fit:contain !important; }
+.re4-produto { display:inline-flex;align-items:center;gap:8px; }
+.re4-produto img { width:32px;height:32px;border:0;border-radius:4px; }

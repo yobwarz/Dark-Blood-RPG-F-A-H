@@ -1,0 +1,14 @@
+{{#if tem}}
+<section class="se-painel">
+  <h3>Consumíveis</h3>
+  {{#each consumiveis}}
+  <div class="se-linha-item" data-item-id="{{id}}">
+    <img src="{{img}}" alt="">
+    <div class="se-item-info"><strong>{{nome}}</strong><small>Quantidade {{quantidade}}{{#if usos}} · usos {{usos}}{{/if}} · {{resumo}}</small></div>
+    <div class="se-item-acoes">
+      <button type="button" class="se-botao" data-action="extensao" data-ext="fh-consumiveis" data-acao="usar" title="Gasta 1 ação e aplica os efeitos">Usar</button>
+    </div>
+  </div>
+  {{/each}}
+</section>
+{{/if}}

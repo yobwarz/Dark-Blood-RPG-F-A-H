@@ -1,0 +1,614 @@
+[
+ {
+  "name": "Guarda da Masmorra",
+  "type": "criatura",
+  "img": "icons/svg/skull.svg",
+  "pasta": "Criaturas das Profundezas",
+  "system": {
+   "atributos": {
+    "for": {
+     "valor": 16
+    },
+    "agi": {
+     "valor": 8
+    },
+    "con": {
+     "valor": 16
+    },
+    "san": {
+     "valor": 10
+    }
+   },
+   "pv": {
+    "value": 24,
+    "max": 24
+   },
+   "na": 10,
+   "pr": 0,
+   "deslocamento": 6.0,
+   "iniciativa": -1,
+   "ataque": 3,
+   "dano": "1d8",
+   "tipoDano": "Cortante",
+   "semCirculacao": false,
+   "notas": "<p><em>Humanoide Deformado (Grande)</em></p>\n<p>Um carcereiro de proporções anormais percorre os corredores arrastando um cutelo. Sua lentidão aparente esconde arrancadas brutais, e seus movimentos revelam quais membros sustentam cada ameaça.</p>\n<table>\n<colgroup>\n<col style=\"width: 50%\" />\n<col style=\"width: 50%\" />\n</colgroup>\n<thead>\n<tr class=\"header\">\n<th style=\"text-align: center;\">Característica</th>\n<th style=\"text-align: center;\">Valor</th>\n</tr>\n</thead>\n<tbody>\n<tr class=\"odd\">\n<td style=\"text-align: center;\"><strong>PV gerais</strong></td>\n<td style=\"text-align: center;\">24</td>\n</tr>\n<tr class=\"even\">\n<td style=\"text-align: center;\"><strong>NA</strong></td>\n<td style=\"text-align: center;\">10</td>\n</tr>\n<tr class=\"odd\">\n<td style=\"text-align: center;\"><strong>PR</strong></td>\n<td style=\"text-align: center;\">0</td>\n</tr>\n<tr class=\"even\">\n<td style=\"text-align: center;\"><strong>Deslocamento</strong></td>\n<td style=\"text-align: center;\">6 m</td>\n</tr>\n<tr class=\"odd\">\n<td style=\"text-align: center;\"><strong>Ações</strong></td>\n<td style=\"text-align: center;\">3; até 2 ataques por turno</td>\n</tr>\n<tr class=\"even\">\n<td style=\"text-align: center;\"><strong>Reação</strong></td>\n<td style=\"text-align: center;\">1</td>\n</tr>\n<tr class=\"odd\">\n<td style=\"text-align: center;\"><strong>Modificadores</strong></td>\n<td style=\"text-align: center;\">Força +3; Agilidade −1; Constituição +3; Vontade +0</td>\n</tr>\n<tr class=\"even\">\n<td style=\"text-align: center;\"><strong>Fobias ativadas</strong></td>\n<td style=\"text-align: center;\">Teratofobia</td>\n</tr>\n</tbody>\n</table>\n<h3><strong>Anatomia</strong></h3>\n<table>\n<colgroup>\n<col style=\"width: 33%\" />\n<col style=\"width: 33%\" />\n<col style=\"width: 33%\" />\n</colgroup>\n<thead>\n<tr class=\"header\">\n<th style=\"text-align: center;\">Parte</th>\n<th style=\"text-align: center;\">Limite</th>\n<th style=\"text-align: center;\">Consequência da destruição</th>\n</tr>\n</thead>\n<tbody>\n<tr class=\"odd\">\n<td style=\"text-align: center;\"><strong>Cabeça</strong></td>\n<td style=\"text-align: center;\">8</td>\n<td style=\"text-align: center;\">Morte imediata.</td>\n</tr>\n<tr class=\"even\">\n<td style=\"text-align: center;\"><strong>Braço esquerdo</strong></td>\n<td style=\"text-align: center;\">5</td>\n<td style=\"text-align: center;\">Perde o Cutelo; a arma cai.</td>\n</tr>\n<tr class=\"odd\">\n<td style=\"text-align: center;\"><strong>Braço direito</strong></td>\n<td style=\"text-align: center;\">5</td>\n<td style=\"text-align: center;\">Perde Agarrão e não pode realizar o Rito da Morte.</td>\n</tr>\n<tr class=\"even\">\n<td style=\"text-align: center;\"><strong>Cada perna</strong></td>\n<td style=\"text-align: center;\">6</td>\n<td style=\"text-align: center;\">Aplica as consequências de perda de pernas.</td>\n</tr>\n<tr class=\"odd\">\n<td style=\"text-align: center;\"><strong>Apêndice pélvico</strong></td>\n<td style=\"text-align: center;\">5</td>\n<td style=\"text-align: center;\">Perde Estocada Brutal.</td>\n</tr>\n</tbody>\n</table>\n<h3><strong>Ataques e Capacidades</strong></h3>\n<p><strong>Cutelo — 1 ação.</strong> Ataque <strong>+3</strong>, alcance <strong>1,5 m</strong>, dano <strong>1d8 cortante</strong>. Pode ser declarado como ataque letal. Exige o braço esquerdo.</p>\n<p><strong>Agarrão — 1 ação.</strong> Uma criatura ao alcance de <strong>1,5 m</strong> realiza Força ou Agilidade contra <strong>CD 13</strong>. Em caso de falha, fica Agarrada. Escapar custa 1 ação e exige sucesso contra a mesma CD. Exige o braço direito, que fica ocupado.</p>\n<p><strong>Estocada Brutal — 1 ação.</strong> Ataque <strong>+2</strong>, alcance <strong>1,5 m</strong>, dano <strong>1d6 perfurante</strong>. Exige o apêndice pélvico.</p>\n<p><strong>Encontrão — 1 ação.</strong> Ataque <strong>+2</strong>, alcance <strong>1,5 m</strong>, dano <strong>1d4 contusivo</strong>. Permanece disponível mesmo sem os braços.</p>\n<p><strong>Contra-ataque:</strong> Cutelo, Estocada Brutal ou Encontrão.</p>\n<h3><strong>Fraqueza</strong></h3>\n<p>O braço do cutelo é relativamente frágil. Destruí-lo remove seu ataque mais perigoso, mas não impede a preparação do rito. O braço direito sustenta essa segunda ameaça.</p>\n<h3><strong>Rito da Morte: Arrancada Furiosa</strong></h3>\n<p><strong>Preparação:</strong> depois de sobreviver a um ataque letal, o Guarda recua o ombro direito e arranha o chão com os pés.</p>\n<p><strong>Interrupção:</strong> destruir o braço direito, deixá-lo Incapacitado ou impedir completamente sua locomoção.</p>\n<p>No início do próximo turno, pode realizar o rito conforme as regras gerais. Se vencer, recebe 4 ações e pode realizar até quatro <strong>Encontrões</strong>, como exceção ao seu limite normal de ataques. Cada Encontrão exige alcance e é resolvido separadamente.</p>\n<p>Se perder, morre imediatamente.</p>\n<h3><strong>Objetos Recuperáveis</strong></h3>\n<h2>Um cutelo utilizável, trapos e, quando indicado pelo cenário, uma chave. O cutelo recuperado utiliza as estatísticas de machado de mão.</h2>\n"
+  },
+  "flags": {
+   "sangue-escuro-fear-and-hunger": {
+    "anatomia": [
+     {
+      "nome": "Cabeça",
+      "limite": 8,
+      "consequencia": "Morte imediata.",
+      "destruida": false
+     },
+     {
+      "nome": "Braço esquerdo",
+      "limite": 5,
+      "consequencia": "Perde o Cutelo; a arma cai.",
+      "destruida": false
+     },
+     {
+      "nome": "Braço direito",
+      "limite": 5,
+      "consequencia": "Perde Agarrão e não pode realizar o Rito da Morte.",
+      "destruida": false
+     },
+     {
+      "nome": "Perna direita",
+      "limite": 6,
+      "consequencia": "Aplica as consequências de perda de pernas.",
+      "destruida": false
+     },
+     {
+      "nome": "Perna esquerda",
+      "limite": 6,
+      "consequencia": "Aplica as consequências de perda de pernas.",
+      "destruida": false
+     },
+     {
+      "nome": "Apêndice pélvico",
+      "limite": 5,
+      "consequencia": "Perde Estocada Brutal.",
+      "destruida": false
+     }
+    ],
+    "fobiasAtivadas": [
+     "Teratofobia"
+    ],
+    "rito": {
+     "disponivel": true,
+     "sinal": "depois de sobreviver a um ataque letal, o Guarda recua o ombro direito e arranha o chão com os pés.",
+     "interrupcao": "destruir o braço direito, deixá-lo Incapacitado ou impedir completamente sua locomoção."
+    }
+   }
+  }
+ },
+ {
+  "name": "Jaggedjaw",
+  "type": "criatura",
+  "img": "icons/svg/skull.svg",
+  "pasta": "Criaturas das Profundezas",
+  "system": {
+   "atributos": {
+    "for": {
+     "valor": 14
+    },
+    "agi": {
+     "valor": 14
+    },
+    "con": {
+     "valor": 12
+    },
+    "san": {
+     "valor": 10
+    }
+   },
+   "pv": {
+    "value": 16,
+    "max": 16
+   },
+   "na": 12,
+   "pr": 0,
+   "deslocamento": 9.0,
+   "iniciativa": 2,
+   "ataque": 3,
+   "dano": "1d6",
+   "tipoDano": "Perfurante",
+   "semCirculacao": false,
+   "notas": "<p><em>Besta (Médio)</em></p>\n<p>Uma criatura canina de dentes irregulares ronda entradas e passagens. Antes de saltar, abaixa o corpo e fixa os olhos na presa. Sua mordida pode transformar um ferimento pequeno em um problema persistente.</p>\n<table>\n<colgroup>\n<col style=\"width: 50%\" />\n<col style=\"width: 50%\" />\n</colgroup>\n<thead>\n<tr class=\"header\">\n<th style=\"text-align: center;\">Característica</th>\n<th style=\"text-align: center;\">Valor</th>\n</tr>\n</thead>\n<tbody>\n<tr class=\"odd\">\n<td style=\"text-align: center;\"><strong>PV gerais</strong></td>\n<td style=\"text-align: center;\">16</td>\n</tr>\n<tr class=\"even\">\n<td style=\"text-align: center;\"><strong>NA</strong></td>\n<td style=\"text-align: center;\">12</td>\n</tr>\n<tr class=\"odd\">\n<td style=\"text-align: center;\"><strong>PR</strong></td>\n<td style=\"text-align: center;\">0</td>\n</tr>\n<tr class=\"even\">\n<td style=\"text-align: center;\"><strong>Deslocamento</strong></td>\n<td style=\"text-align: center;\">9 m</td>\n</tr>\n<tr class=\"odd\">\n<td style=\"text-align: center;\"><strong>Ações</strong></td>\n<td style=\"text-align: center;\">3; até 1 ataque por turno</td>\n</tr>\n<tr class=\"even\">\n<td style=\"text-align: center;\"><strong>Reação</strong></td>\n<td style=\"text-align: center;\">1</td>\n</tr>\n<tr class=\"odd\">\n<td style=\"text-align: center;\"><strong>Modificadores</strong></td>\n<td style=\"text-align: center;\">Força +2; Agilidade +2; Constituição +1; Vontade +0</td>\n</tr>\n<tr class=\"even\">\n<td style=\"text-align: center;\"><strong>Fobias ativadas</strong></td>\n<td style=\"text-align: center;\">Zoofobia</td>\n</tr>\n</tbody>\n</table>\n<h3><strong>Anatomia</strong></h3>\n<table>\n<colgroup>\n<col style=\"width: 33%\" />\n<col style=\"width: 33%\" />\n<col style=\"width: 33%\" />\n</colgroup>\n<thead>\n<tr class=\"header\">\n<th style=\"text-align: center;\">Parte</th>\n<th style=\"text-align: center;\">Limite</th>\n<th style=\"text-align: center;\">Consequência da destruição</th>\n</tr>\n</thead>\n<tbody>\n<tr class=\"odd\">\n<td style=\"text-align: center;\"><strong>Cabeça</strong></td>\n<td style=\"text-align: center;\">6</td>\n<td style=\"text-align: center;\">Morte imediata.</td>\n</tr>\n<tr class=\"even\">\n<td style=\"text-align: center;\"><strong>Cada pata dianteira</strong></td>\n<td style=\"text-align: center;\">4</td>\n<td style=\"text-align: center;\">Uma perdida: deslocamento 6 m. Ambas: fica Caído e não pode saltar.</td>\n</tr>\n<tr class=\"odd\">\n<td style=\"text-align: center;\"><strong>Cada pata traseira</strong></td>\n<td style=\"text-align: center;\">4</td>\n<td style=\"text-align: center;\">Uma perdida: perde o rito e deslocamento reduzido a 6 m. Ambas: fica Caído.</td>\n</tr>\n</tbody>\n</table>\n<p>Com duas ou mais patas destruídas, seu deslocamento passa a <strong>1,5 m</strong>, independentemente da combinação.</p>\n<h3><strong>Ataques e Capacidades</strong></h3>\n<p><strong>Mordida — 1 ação.</strong> Ataque <strong>+3</strong>, alcance <strong>1,5 m</strong>, dano <strong>1d6 perfurante</strong>. Pode ser declarada como ataque letal. Exige a cabeça.</p>\n<p>Se causar pelo menos 1 de dano após PR, o alvo realiza <strong>Constituição CD 12</strong>. Em caso de falha, sofre Sangramento.</p>\n<p><strong>Farejar — 1 ação.</strong> Realiza Percepção com <strong>+4</strong> para localizar uma criatura próxima por cheiro ou som. Isso pode revelar sua posição, mas não permite enxergar através de obstáculos.</p>\n<p><strong>Contra-ataque:</strong> Mordida.</p>\n<h3><strong>Fraqueza</strong></h3>\n<p>Fogo causa +1 de dano ao Jaggedjaw. Esse dano adicional não aumenta a capacidade de mutilação de ataques que normalmente não possam mutilar. Destruir uma pata traseira impede seu salto ritual.</p>\n<h3><strong>Rito da Morte: Salto de Abate</strong></h3>\n<p><strong>Preparação:</strong> depois de sobreviver a um ataque letal, o cão rosna, abaixa o corpo e contrai as patas traseiras.</p>\n<p><strong>Interrupção:</strong> destruir uma pata traseira, deixá-lo Agarrado, Caído ou Incapacitado.</p>\n<p>Se vencer o rito, recebe 4 ações e pode realizar até quatro <strong>Mordidas</strong>, como exceção ao limite normal. Precisa alcançar seus alvos; deslocamento adicional ainda exige Correr.</p>\n<p>Se perder, morre imediatamente.</p>\n<h3><strong>Objetos Recuperáveis</strong></h3>\n<h2>Nenhum equipamento. Dentes, couro e outras partes podem servir como materiais quando uma receita ou oferenda específica os exigir.</h2>\n"
+  },
+  "flags": {
+   "sangue-escuro-fear-and-hunger": {
+    "anatomia": [
+     {
+      "nome": "Cabeça",
+      "limite": 6,
+      "consequencia": "Morte imediata.",
+      "destruida": false
+     },
+     {
+      "nome": "Pata dianteira direita",
+      "limite": 4,
+      "consequencia": "Uma perdida: deslocamento 6 m. Ambas: fica Caído e não pode saltar.",
+      "destruida": false
+     },
+     {
+      "nome": "Pata dianteira esquerda",
+      "limite": 4,
+      "consequencia": "Uma perdida: deslocamento 6 m. Ambas: fica Caído e não pode saltar.",
+      "destruida": false
+     },
+     {
+      "nome": "Pata traseira direita",
+      "limite": 4,
+      "consequencia": "Uma perdida: perde o rito e deslocamento reduzido a 6 m. Ambas: fica Caído.",
+      "destruida": false
+     },
+     {
+      "nome": "Pata traseira esquerda",
+      "limite": 4,
+      "consequencia": "Uma perdida: perde o rito e deslocamento reduzido a 6 m. Ambas: fica Caído.",
+      "destruida": false
+     }
+    ],
+    "fobiasAtivadas": [
+     "Zoofobia"
+    ],
+    "rito": {
+     "disponivel": true,
+     "sinal": "depois de sobreviver a um ataque letal, o cão rosna, abaixa o corpo e contrai as patas traseiras.",
+     "interrupcao": "destruir uma pata traseira, deixá-lo Agarrado, Caído ou Incapacitado."
+    }
+   }
+  }
+ },
+ {
+  "name": "Aranha das Cavernas",
+  "type": "criatura",
+  "img": "icons/svg/skull.svg",
+  "pasta": "Criaturas das Profundezas",
+  "system": {
+   "atributos": {
+    "for": {
+     "valor": 4
+    },
+    "agi": {
+     "valor": 16
+    },
+    "con": {
+     "valor": 10
+    },
+    "san": {
+     "valor": 6
+    }
+   },
+   "pv": {
+    "value": 3,
+    "max": 3
+   },
+   "na": 14,
+   "pr": 0,
+   "deslocamento": 4.5,
+   "iniciativa": 3,
+   "ataque": 2,
+   "dano": "1d4",
+   "tipoDano": "Contundente",
+   "semCirculacao": false,
+   "notas": "<p><em>Aracnídeo (Minúsculo)</em></p>\n<p>Pequena o bastante para ser ignorada, esta aranha representa uma ameaça desproporcional quando consegue morder. Sua dificuldade está em perceber o perigo antes do contato, não em resistir a golpes.</p>\n<table>\n<colgroup>\n<col style=\"width: 50%\" />\n<col style=\"width: 50%\" />\n</colgroup>\n<thead>\n<tr class=\"header\">\n<th style=\"text-align: center;\">Característica</th>\n<th style=\"text-align: center;\">Valor</th>\n</tr>\n</thead>\n<tbody>\n<tr class=\"odd\">\n<td style=\"text-align: center;\"><strong>PV gerais</strong></td>\n<td style=\"text-align: center;\">3</td>\n</tr>\n<tr class=\"even\">\n<td style=\"text-align: center;\"><strong>NA</strong></td>\n<td style=\"text-align: center;\">14</td>\n</tr>\n<tr class=\"odd\">\n<td style=\"text-align: center;\"><strong>PR</strong></td>\n<td style=\"text-align: center;\">0</td>\n</tr>\n<tr class=\"even\">\n<td style=\"text-align: center;\"><strong>Deslocamento</strong></td>\n<td style=\"text-align: center;\">4,5 m; escala à mesma velocidade</td>\n</tr>\n<tr class=\"odd\">\n<td style=\"text-align: center;\"><strong>Ações</strong></td>\n<td style=\"text-align: center;\">2; até 1 ataque por turno</td>\n</tr>\n<tr class=\"even\">\n<td style=\"text-align: center;\"><strong>Reação</strong></td>\n<td style=\"text-align: center;\">1</td>\n</tr>\n<tr class=\"odd\">\n<td style=\"text-align: center;\"><strong>Modificadores</strong></td>\n<td style=\"text-align: center;\">Força −3; Agilidade +3; Constituição +0; Vontade −2</td>\n</tr>\n<tr class=\"even\">\n<td style=\"text-align: center;\"><strong>Fobias ativadas</strong></td>\n<td style=\"text-align: center;\">Zoofobia</td>\n</tr>\n</tbody>\n</table>\n<h3><strong>Anatomia</strong></h3>\n<table>\n<colgroup>\n<col style=\"width: 33%\" />\n<col style=\"width: 33%\" />\n<col style=\"width: 33%\" />\n</colgroup>\n<thead>\n<tr class=\"header\">\n<th style=\"text-align: center;\">Parte</th>\n<th style=\"text-align: center;\">Limite</th>\n<th style=\"text-align: center;\">Consequência da destruição</th>\n</tr>\n</thead>\n<tbody>\n<tr class=\"odd\">\n<td style=\"text-align: center;\"><strong>Cabeça</strong></td>\n<td style=\"text-align: center;\">2</td>\n<td style=\"text-align: center;\">Morte imediata.</td>\n</tr>\n<tr class=\"even\">\n<td style=\"text-align: center;\"><strong>Abdômen</strong></td>\n<td style=\"text-align: center;\">3</td>\n<td style=\"text-align: center;\">Morte imediata.</td>\n</tr>\n<tr class=\"odd\">\n<td style=\"text-align: center;\"><strong>Conjunto de patas de cada lado</strong></td>\n<td style=\"text-align: center;\">1</td>\n<td style=\"text-align: center;\">Deslocamento reduzido à metade; perde a capacidade de escalar. Ambos destruídos: deslocamento 0.</td>\n</tr>\n</tbody>\n</table>\n<h3><strong>Ataques e Capacidades</strong></h3>\n<p><strong>Picada — 1 ação.</strong> Ataque <strong>+3</strong>, alcance de contato, dano <strong>1 perfurante</strong>.</p>\n<p>Se causar dano após PR, o alvo realiza <strong>Constituição CD 12</strong>. Em caso de falha, fica <strong>Envenenado por 1 hora</strong>.</p>\n<p><strong>Ocultar-se — 1 ação.</strong> Realiza Furtividade com <strong>+5</strong>, desde que exista uma fresta, sombra ou cobertura apropriada.</p>\n<p><strong>Contra-ataque:</strong> Picada, somente se o agressor estiver ao alcance de contato.</p>\n<h3><strong>Fraqueza — Esmagar</strong></h3>\n<p>Um personagem que conheça essa fraqueza pode gastar <strong>1 ação</strong> para pisar na aranha e matá-la sem rolagem, desde que:</p>\n<ul>\n<li>ela esteja sobre uma superfície firme ao alcance dos pés;<br />\n</li>\n<li>o personagem consiga vê-la;<br />\n</li>\n<li>ele esteja de pé e possa utilizar pelo menos uma perna.</li>\n</ul>\n<p>Essa ação conta como um ataque. Não funciona contra uma aranha fora de alcance, escondida ou sobre o corpo de outra criatura.</p>\n<h3><strong>Rito da Morte</strong></h3>\n<p>Não possui.</p>\n<h3><strong>Objetos Recuperáveis</strong></h3>\n<p>Nenhum.</p>\n<hr />\n"
+  },
+  "flags": {
+   "sangue-escuro-fear-and-hunger": {
+    "anatomia": [
+     {
+      "nome": "Cabeça",
+      "limite": 2,
+      "consequencia": "Morte imediata.",
+      "destruida": false
+     },
+     {
+      "nome": "Abdômen",
+      "limite": 3,
+      "consequencia": "Morte imediata.",
+      "destruida": false
+     },
+     {
+      "nome": "Conjunto de patas de cada lado",
+      "limite": 1,
+      "consequencia": "Deslocamento reduzido à metade; perde a capacidade de escalar. Ambos destruídos: deslocamento 0.",
+      "destruida": false
+     }
+    ],
+    "fobiasAtivadas": [
+     "Zoofobia"
+    ],
+    "rito": {
+     "disponivel": false,
+     "sinal": "",
+     "interrupcao": ""
+    }
+   }
+  }
+ },
+ {
+  "name": "Esqueleto Reanimado",
+  "type": "criatura",
+  "img": "icons/svg/skull.svg",
+  "pasta": "Criaturas das Profundezas",
+  "system": {
+   "atributos": {
+    "for": {
+     "valor": 10
+    },
+    "agi": {
+     "valor": 10
+    },
+    "con": {
+     "valor": 10
+    },
+    "san": {
+     "valor": 10
+    }
+   },
+   "pv": {
+    "value": 10,
+    "max": 10
+   },
+   "na": 10,
+   "pr": 0,
+   "deslocamento": 9.0,
+   "iniciativa": 0,
+   "ataque": 2,
+   "dano": "1d4",
+   "tipoDano": "Cortante",
+   "semCirculacao": true,
+   "notas": "<p><em>Morto-vivo, Humanoide (Médio)</em></p>\n<p>Ossos sustentados por necromancia movem-se com uma precisão desagradável. A ausência de carne elimina vários meios comuns de enfraquecê-lo, mas seus membros continuam sendo estruturas que podem ser quebradas.</p>\n<table>\n<colgroup>\n<col style=\"width: 50%\" />\n<col style=\"width: 50%\" />\n</colgroup>\n<thead>\n<tr class=\"header\">\n<th style=\"text-align: center;\">Característica</th>\n<th style=\"text-align: center;\">Valor</th>\n</tr>\n</thead>\n<tbody>\n<tr class=\"odd\">\n<td style=\"text-align: center;\">PV gerais</td>\n<td style=\"text-align: center;\">12</td>\n</tr>\n<tr class=\"even\">\n<td style=\"text-align: center;\">NA</td>\n<td style=\"text-align: center;\">11</td>\n</tr>\n<tr class=\"odd\">\n<td style=\"text-align: center;\">PR</td>\n<td style=\"text-align: center;\">0</td>\n</tr>\n<tr class=\"even\">\n<td style=\"text-align: center;\">Deslocamento</td>\n<td style=\"text-align: center;\">6 m</td>\n</tr>\n<tr class=\"odd\">\n<td style=\"text-align: center;\">Ações</td>\n<td style=\"text-align: center;\">3; até 1 ataque por turno</td>\n</tr>\n<tr class=\"even\">\n<td style=\"text-align: center;\">Reação</td>\n<td style=\"text-align: center;\">1</td>\n</tr>\n<tr class=\"odd\">\n<td style=\"text-align: center;\">Modificadores</td>\n<td style=\"text-align: center;\">Força +1; Agilidade +0; Constituição +2; Vontade +1</td>\n</tr>\n<tr class=\"even\">\n<td style=\"text-align: center;\">Fobias ativadas</td>\n<td style=\"text-align: center;\">Necrofobia</td>\n</tr>\n</tbody>\n</table>\n<h3><strong>Anatomia</strong></h3>\n<table>\n<thead>\n<tr class=\"header\">\n<th style=\"text-align: center;\">Parte</th>\n<th style=\"text-align: center;\">Limite</th>\n<th style=\"text-align: center;\">Consequência da destruição</th>\n</tr>\n</thead>\n<tbody>\n<tr class=\"odd\">\n<td style=\"text-align: center;\"><strong>Crânio</strong></td>\n<td style=\"text-align: center;\">6</td>\n<td style=\"text-align: center;\">A ligação necromântica se desfaz; é destruído.</td>\n</tr>\n<tr class=\"even\">\n<td style=\"text-align: center;\"><strong>Cada braço</strong></td>\n<td style=\"text-align: center;\">4</td>\n<td style=\"text-align: center;\">Perde ataques que dependem daquele braço.</td>\n</tr>\n<tr class=\"odd\">\n<td style=\"text-align: center;\"><strong>Cada perna</strong></td>\n<td style=\"text-align: center;\">4</td>\n<td style=\"text-align: center;\">Aplica as consequências de perda de pernas.</td>\n</tr>\n</tbody>\n</table>\n<h3><strong>Ataques e Capacidades</strong></h3>\n<p><strong>Garra Óssea — 1 ação.</strong> Ataque <strong>+2</strong>, alcance <strong>1,5 m</strong>, dano <strong>1d4 cortante</strong>. Exige um braço funcional.</p>\n<p><strong>Chute — 1 ação.</strong> Ataque <strong>+2</strong>, alcance <strong>1,5 m</strong>, dano <strong>1d6 contusivo</strong>. Exige estar de pé e possuir ambas as pernas.</p>\n<p><strong>Encontrão — 1 ação.</strong> Ataque <strong>+1</strong>, alcance <strong>1,5 m</strong>, dano <strong>1d3 contusivo</strong>.</p>\n<p><strong>Contra-ataque:</strong> Garra Óssea, Chute ou Encontrão.</p>\n<p><strong>Natureza Morta</strong><br />\nNão precisa respirar, comer ou beber. É imune a Sangramento, Hemorragia Grave, venenos e doenças comuns. Não pode ser nocauteado por privação de ar e não adquire fobias.</p>\n<p><strong>Fraqueza — Ossos Expostos</strong><br />\nAtaques contundentes causam +1 de dano. Quando realizados como ataques letais apropriados, esse dano adicional conta para o limite de mutilação.</p>\n<h3><strong>Rito da Morte</strong></h3>\n<p>Não possui.</p>\n<h3><strong>Objetos Recuperáveis</strong></h3>\n<h2>Ossos e objetos previamente carregados. Não fornece automaticamente uma Pedra de Alma ocupada.</h2>\n"
+  },
+  "flags": {
+   "sangue-escuro-fear-and-hunger": {
+    "anatomia": [
+     {
+      "nome": "Crânio",
+      "limite": 6,
+      "consequencia": "A ligação necromântica se desfaz; é destruído.",
+      "destruida": false
+     },
+     {
+      "nome": "Braço direito",
+      "limite": 4,
+      "consequencia": "Perde ataques que dependem daquele braço.",
+      "destruida": false
+     },
+     {
+      "nome": "Braço esquerdo",
+      "limite": 4,
+      "consequencia": "Perde ataques que dependem daquele braço.",
+      "destruida": false
+     },
+     {
+      "nome": "Perna direita",
+      "limite": 4,
+      "consequencia": "Aplica as consequências de perda de pernas.",
+      "destruida": false
+     },
+     {
+      "nome": "Perna esquerda",
+      "limite": 4,
+      "consequencia": "Aplica as consequências de perda de pernas.",
+      "destruida": false
+     }
+    ],
+    "fobiasAtivadas": [],
+    "rito": {
+     "disponivel": false,
+     "sinal": "",
+     "interrupcao": ""
+    }
+   }
+  }
+ },
+ {
+  "name": "Sacerdote das Profundezas",
+  "type": "criatura",
+  "img": "icons/svg/skull.svg",
+  "pasta": "Criaturas das Profundezas",
+  "system": {
+   "atributos": {
+    "for": {
+     "valor": 10
+    },
+    "agi": {
+     "valor": 10
+    },
+    "con": {
+     "valor": 12
+    },
+    "san": {
+     "valor": 16
+    }
+   },
+   "pv": {
+    "value": 14,
+    "max": 14
+   },
+   "na": 10,
+   "pr": 0,
+   "deslocamento": 6.0,
+   "iniciativa": 0,
+   "ataque": 1,
+   "dano": "1d4",
+   "tipoDano": "Contundente",
+   "semCirculacao": false,
+   "notas": "<p><em>Humanoide (Médio)</em></p>\n<p>Um peregrino de vestes escuras murmura diante de símbolos antigos. Uma mão conduz gestos de sofrimento; a outra sustenta uma lamparina. Interromper sua magia exige reconhecer esses movimentos antes que sejam concluídos.</p>\n<table>\n<colgroup>\n<col style=\"width: 50%\" />\n<col style=\"width: 50%\" />\n</colgroup>\n<thead>\n<tr class=\"header\">\n<th style=\"text-align: center;\">Característica</th>\n<th style=\"text-align: center;\">Valor</th>\n</tr>\n</thead>\n<tbody>\n<tr class=\"odd\">\n<td style=\"text-align: center;\"><strong>PV gerais</strong></td>\n<td style=\"text-align: center;\">14</td>\n</tr>\n<tr class=\"even\">\n<td style=\"text-align: center;\"><strong>NA</strong></td>\n<td style=\"text-align: center;\">10</td>\n</tr>\n<tr class=\"odd\">\n<td style=\"text-align: center;\"><strong>PR</strong></td>\n<td style=\"text-align: center;\">0</td>\n</tr>\n<tr class=\"even\">\n<td style=\"text-align: center;\"><strong>Deslocamento</strong></td>\n<td style=\"text-align: center;\">6 m</td>\n</tr>\n<tr class=\"odd\">\n<td style=\"text-align: center;\"><strong>Ações</strong></td>\n<td style=\"text-align: center;\">3; até 2 ataques por turno</td>\n</tr>\n<tr class=\"even\">\n<td style=\"text-align: center;\"><strong>Reação</strong></td>\n<td style=\"text-align: center;\">1</td>\n</tr>\n<tr class=\"odd\">\n<td style=\"text-align: center;\"><strong>Modificadores</strong></td>\n<td style=\"text-align: center;\">Força +0; Agilidade +0; Constituição +1; Vontade +3</td>\n</tr>\n<tr class=\"even\">\n<td style=\"text-align: center;\"><strong>Fobias ativadas</strong></td>\n<td style=\"text-align: center;\">Rabdofobia quando manifesta magia hostil</td>\n</tr>\n<tr class=\"odd\">\n<td style=\"text-align: center;\"><strong>Reserva sobrenatural</strong></td>\n<td style=\"text-align: center;\">3 conjurações disponíveis</td>\n</tr>\n</tbody>\n</table>\n<h3><strong>Anatomia</strong></h3>\n<table>\n<thead>\n<tr class=\"header\">\n<th style=\"text-align: center;\">Parte</th>\n<th style=\"text-align: center;\">Limite</th>\n<th style=\"text-align: center;\">Consequência da destruição</th>\n</tr>\n</thead>\n<tbody>\n<tr class=\"odd\">\n<td style=\"text-align: center;\"><strong>Cabeça</strong></td>\n<td style=\"text-align: center;\">6</td>\n<td style=\"text-align: center;\">Morte imediata.</td>\n</tr>\n<tr class=\"even\">\n<td style=\"text-align: center;\"><strong>Braço direito</strong></td>\n<td style=\"text-align: center;\">4</td>\n<td style=\"text-align: center;\">Perde Ferir.</td>\n</tr>\n<tr class=\"odd\">\n<td style=\"text-align: center;\"><strong>Braço esquerdo</strong></td>\n<td style=\"text-align: center;\">4</td>\n<td style=\"text-align: center;\">Perde Golpe de Lamparina; o objeto cai.</td>\n</tr>\n<tr class=\"even\">\n<td style=\"text-align: center;\"><strong>Cada perna</strong></td>\n<td style=\"text-align: center;\">5</td>\n<td style=\"text-align: center;\">Aplica as consequências de perda de pernas.</td>\n</tr>\n</tbody>\n</table>\n<h3><strong>Ataques e Capacidades</strong></h3>\n<p><strong>Ferir — 2 ações.</strong> Ataque mágico <strong>+3</strong>, alcance <strong>9 m</strong>, dano <strong>1d6 sobrenatural</strong>. Pode ser declarado como ataque letal contra uma parte visível, seguindo as regras de localização.</p>\n<p>Exige o braço direito e consome <strong>uma conjuração</strong>. Como o dano não é físico, PR comum não o reduz.</p>\n<p><strong>Golpe de Lamparina — 1 ação.</strong> Ataque <strong>+1</strong>, alcance <strong>1,5 m</strong>, dano <strong>1d4 contusivo</strong>. Exige o braço esquerdo e a lamparina.</p>\n<p>Se a lamparina estiver acesa e o ataque causar dano após PR, o alvo realiza <strong>Agilidade CD 12</strong>. Em caso de falha, fica Queimando.</p>\n<p><strong>Golpe Desesperado — 1 ação.</strong> Ataque <strong>+0</strong>, alcance <strong>1,5 m</strong>, dano <strong>1 contusivo</strong>. Pode ser realizado com um braço funcional ou, estando de pé, com um chute.</p>\n<p><strong>Contra-ataque:</strong> Golpe de Lamparina ou Golpe Desesperado. Não pode utilizar Ferir como reação.</p>\n<h3><strong>Reserva Sobrenatural</strong></h3>\n<p>Depois de consumir suas três conjurações, não pode utilizar <strong>Ferir</strong> até concluir um Descanso Longo. Afastar-se e reencontrá-lo não recupera sua reserva.</p>\n<h3><strong>Fraqueza</strong></h3>\n<p>Os gestos revelam o braço utilizado para conjurar. Destruí-lo remove Ferir, enquanto atacar o outro braço neutraliza a ameaça da lamparina.</p>\n<p>Derrubar o sacerdote também facilita ataques à cabeça, conforme as regras gerais.</p>\n<h3><strong>Rito da Morte</strong></h3>\n<p>Não possui.</p>\n<h3><strong>Objetos Recuperáveis</strong></h3>\n<h2>Uma lamparina, vestes escuras sem PR e 1 uso de giz ritual. A lamparina possui 1 hora de combustível restante, se não tiver sido quebrada.</h2>\n"
+  },
+  "flags": {
+   "sangue-escuro-fear-and-hunger": {
+    "anatomia": [
+     {
+      "nome": "Cabeça",
+      "limite": 6,
+      "consequencia": "Morte imediata.",
+      "destruida": false
+     },
+     {
+      "nome": "Braço direito",
+      "limite": 4,
+      "consequencia": "Perde Ferir.",
+      "destruida": false
+     },
+     {
+      "nome": "Braço esquerdo",
+      "limite": 4,
+      "consequencia": "Perde Golpe de Lamparina; o objeto cai.",
+      "destruida": false
+     },
+     {
+      "nome": "Perna direita",
+      "limite": 5,
+      "consequencia": "Aplica as consequências de perda de pernas.",
+      "destruida": false
+     },
+     {
+      "nome": "Perna esquerda",
+      "limite": 5,
+      "consequencia": "Aplica as consequências de perda de pernas.",
+      "destruida": false
+     }
+    ],
+    "fobiasAtivadas": [
+     "Rabdofobia"
+    ],
+    "rito": {
+     "disponivel": false,
+     "sinal": "",
+     "interrupcao": ""
+    }
+   }
+  }
+ },
+ {
+  "name": "O Massacrador Corvo",
+  "type": "criatura",
+  "img": "icons/svg/skull.svg",
+  "pasta": "Criaturas das Profundezas",
+  "system": {
+   "atributos": {
+    "for": {
+     "valor": 18
+    },
+    "agi": {
+     "valor": 12
+    },
+    "con": {
+     "valor": 18
+    },
+    "san": {
+     "valor": 16
+    }
+   },
+   "pv": {
+    "value": 44,
+    "max": 44
+   },
+   "na": 13,
+   "pr": 1,
+   "deslocamento": 6.0,
+   "iniciativa": 1,
+   "ataque": 2,
+   "dano": "1d4",
+   "tipoDano": "Contundente",
+   "semCirculacao": false,
+   "notas": "<p><em>Humanoide Deformado (Grande), perseguidor</em></p>\n<p>O som de passos pesados anuncia uma figura de cabeça aviana e corpo humano desfigurado. Um de seus braços termina em uma massa brutal, enquanto seu bico procura rostos desprotegidos. Sua aproximação transforma corredores conhecidos em rotas de fuga.</p>\n<table>\n<colgroup>\n<col style=\"width: 50%\" />\n<col style=\"width: 50%\" />\n</colgroup>\n<thead>\n<tr class=\"header\">\n<th style=\"text-align: center;\">Característica</th>\n<th style=\"text-align: center;\">Valor</th>\n</tr>\n</thead>\n<tbody>\n<tr class=\"odd\">\n<td style=\"text-align: center;\"><strong>PV gerais</strong></td>\n<td style=\"text-align: center;\">44</td>\n</tr>\n<tr class=\"even\">\n<td style=\"text-align: center;\"><strong>NA</strong></td>\n<td style=\"text-align: center;\">13</td>\n</tr>\n<tr class=\"odd\">\n<td style=\"text-align: center;\"><strong>PR</strong></td>\n<td style=\"text-align: center;\">1 no tronco e braços; 0 na cabeça e pernas</td>\n</tr>\n<tr class=\"even\">\n<td style=\"text-align: center;\"><strong>Deslocamento</strong></td>\n<td style=\"text-align: center;\">6 m</td>\n</tr>\n<tr class=\"odd\">\n<td style=\"text-align: center;\"><strong>Ações</strong></td>\n<td style=\"text-align: center;\">3; até 2 ataques por turno</td>\n</tr>\n<tr class=\"even\">\n<td style=\"text-align: center;\"><strong>Reação</strong></td>\n<td style=\"text-align: center;\">1, recuperada no início do turno</td>\n</tr>\n<tr class=\"odd\">\n<td style=\"text-align: center;\"><strong>Modificadores</strong></td>\n<td style=\"text-align: center;\">Força +4; Agilidade +1; Constituição +4; Vontade +3</td>\n</tr>\n<tr class=\"even\">\n<td style=\"text-align: center;\"><strong>Fobias ativadas</strong></td>\n<td style=\"text-align: center;\">Teratofobia</td>\n</tr>\n</tbody>\n</table>\n<h3><strong>Anatomia</strong></h3>\n<table>\n<colgroup>\n<col style=\"width: 33%\" />\n<col style=\"width: 33%\" />\n<col style=\"width: 33%\" />\n</colgroup>\n<thead>\n<tr class=\"header\">\n<th style=\"text-align: center;\">Parte</th>\n<th style=\"text-align: center;\">Limite</th>\n<th style=\"text-align: center;\">Consequência da destruição</th>\n</tr>\n</thead>\n<tbody>\n<tr class=\"odd\">\n<td style=\"text-align: center;\"><strong>Cabeça</strong></td>\n<td style=\"text-align: center;\">12</td>\n<td style=\"text-align: center;\">Morte imediata.</td>\n</tr>\n<tr class=\"even\">\n<td style=\"text-align: center;\"><strong>Braço esquerdo, deformado em malho</strong></td>\n<td style=\"text-align: center;\">10</td>\n<td style=\"text-align: center;\">Perde Esmagamento.</td>\n</tr>\n<tr class=\"odd\">\n<td style=\"text-align: center;\"><strong>Braço direito</strong></td>\n<td style=\"text-align: center;\">8</td>\n<td style=\"text-align: center;\">Perde Golpe Brutal.</td>\n</tr>\n<tr class=\"even\">\n<td style=\"text-align: center;\"><strong>Cada perna</strong></td>\n<td style=\"text-align: center;\">8</td>\n<td style=\"text-align: center;\">Uma perdida: deslocamento 3 m. Ambas: fica Caído e só pode se arrastar 1,5 m.</td>\n</tr>\n</tbody>\n</table>\n<h3><strong>Ataques e Capacidades</strong></h3>\n<p><strong>Esmagamento — 1 ação.</strong> Ataque <strong>+4</strong>, alcance <strong>1,5 m</strong>, dano <strong>1d8 + 2 contusivo</strong>. Pode ser declarado como ataque letal contra braços ou pernas. Exige o braço esquerdo e pode ser utilizado somente <strong>uma vez por turno</strong>.</p>\n<p><strong>Bicada Decapitadora — 2 ações.</strong> Ataque letal <strong>+4</strong> contra a cabeça de uma criatura a até <strong>1,5 m</strong>, dano <strong>1d8 + 2 perfurante</strong>. Segue a Desvantagem normal de ataques contra a cabeça e compara seu dano ao limite de mutilação do alvo.</p>\n<p>Para utilizar a Bicada, o Crow Mauler precisa ter anunciado sua preparação no final do próprio turno anterior: ele ergue o pescoço e fixa o olhar em um personagem. A preparação é perceptível e não custa ação.</p>\n<p>Ele só pode executar a Bicada contra o personagem observado. Se não conseguir alcançá-lo ou enxergá-lo, perde a oportunidade, sem gastar as ações.</p>\n<p><strong>Bando de Corvos — 2 ações.</strong> Uma criatura visível a até <strong>9 m</strong> realiza <strong>Agilidade CD 14</strong>. Em caso de falha, sofre <strong>1d4 perfurante</strong> e fica <strong>Cega</strong> por lesões nos olhos. Em caso de sucesso, não sofre o efeito.</p>\n<p>Óculos ou uma máscara que protejam integralmente os olhos impedem a Cegueira, mas não o dano. A condição exige tratamento capaz de restaurar a visão; não termina automaticamente depois do combate.</p>\n<p>Exige a cabeça e pode ser utilizado <strong>duas vezes por confronto</strong>. O limite só se recupera após um Descanso Longo.</p>\n<p><strong>Golpe Brutal — 1 ação.</strong> Ataque <strong>+3</strong>, alcance <strong>1,5 m</strong>, dano <strong>1d4 + 1 contusivo</strong>. Exige o braço direito.</p>\n<p><strong>Contra-ataque:</strong> Esmagamento ou Golpe Brutal. O limite de Esmagamento por turno também se aplica quando utilizado como reação.</p>\n<h3><strong>Fraquezas e Preparação</strong></h3>\n<p><strong>Olhos vulneráveis.</strong> Um personagem ao alcance pode gastar <strong>1 ação</strong> e uma dose de substância irritante apropriada para tentar atingir seus olhos: ataque <strong>+ Agilidade</strong>, com Desvantagem, contra o NA.</p>\n<p>Se acertar, o Crow Mauler fica <strong>Cego até limpar os olhos</strong>, o que exige suas três ações de um turno. Enquanto Cego, não pode utilizar Bicada Decapitadora nem Bando de Corvos.</p>\n<p>O mestre deve indicar quais substâncias encontradas no cenário são apropriadas. Água comum não produz esse efeito.</p>\n<p><strong>Braço do malho.</strong> Destruí-lo remove sua principal fonte de dano físico imediato.</p>\n<h3><strong>Rito da Morte</strong></h3>\n<p>Não possui. Sua ameaça é representada pela Bicada anunciada, pela mutilação e pela Cegueira.</p>\n<h3><strong>Recompensas</strong></h3>\n<p>Carrega a <strong>Chave do Emblema do Corvo</strong>, que abre uma passagem específica do cenário.</p>\n<p>Além da chance normal de Moeda do Destino, derrotá-lo permite a rolagem de <strong>5% para obter um restaurador raríssimo</strong>, conforme as regras de criaturas especiais.</p>\n<h3><strong>Consequência da Derrota Total</strong></h3>\n<p>Se todos os participantes morrerem e ele permanecer com acesso aos corpos, destrói os olhos de cada vítima.</p>\n<p>Os personagens retornam <strong>Cegos por lesão física</strong>. A condição permanece até receber tratamento apropriado.</p>\n<hr />\n"
+  },
+  "flags": {
+   "sangue-escuro-fear-and-hunger": {
+    "anatomia": [
+     {
+      "nome": "Cabeça",
+      "limite": 12,
+      "consequencia": "Morte imediata.",
+      "destruida": false
+     },
+     {
+      "nome": "Braço esquerdo, deformado em malho",
+      "limite": 10,
+      "consequencia": "Perde Esmagamento.",
+      "destruida": false
+     },
+     {
+      "nome": "Braço direito",
+      "limite": 8,
+      "consequencia": "Perde Golpe Brutal.",
+      "destruida": false
+     },
+     {
+      "nome": "Perna direita",
+      "limite": 8,
+      "consequencia": "Uma perdida: deslocamento 3 m. Ambas: fica Caído e só pode se arrastar 1,5 m.",
+      "destruida": false
+     },
+     {
+      "nome": "Perna esquerda",
+      "limite": 8,
+      "consequencia": "Uma perdida: deslocamento 3 m. Ambas: fica Caído e só pode se arrastar 1,5 m.",
+      "destruida": false
+     }
+    ],
+    "fobiasAtivadas": [
+     "Teratofobia"
+    ],
+    "rito": {
+     "disponivel": false,
+     "sinal": "",
+     "interrupcao": ""
+    }
+   }
+  }
+ },
+ {
+  "name": "Moonless",
+  "type": "criatura",
+  "img": "icons/svg/skull.svg",
+  "pasta": "Criaturas das Profundezas",
+  "system": {
+   "atributos": {
+    "for": {
+     "valor": 14
+    },
+    "agi": {
+     "valor": 14
+    },
+    "con": {
+     "valor": 14
+    },
+    "san": {
+     "valor": 12
+    }
+   },
+   "pv": {
+    "value": 18,
+    "max": 18
+   },
+   "na": 12,
+   "pr": 0,
+   "deslocamento": 9.0,
+   "iniciativa": 2,
+   "ataque": 2,
+   "dano": "1d4",
+   "tipoDano": "Contundente",
+   "semCirculacao": false,
+   "notas": "<p><em>Besta (Média); NPC Recrutável</em></p>\n<p>Uma criatura canina de aparência deformada observa o grupo nas cavernas. Apesar dos dentes e do comportamento ameaçador, demonstra curiosidade por alimento e movimentos familiares. Nem todo encontro com ela precisa terminar em morte.</p>\n<table>\n<colgroup>\n<col style=\"width: 50%\" />\n<col style=\"width: 50%\" />\n</colgroup>\n<thead>\n<tr class=\"header\">\n<th style=\"text-align: center;\">Característica</th>\n<th style=\"text-align: center;\">Valor</th>\n</tr>\n</thead>\n<tbody>\n<tr class=\"odd\">\n<td style=\"text-align: center;\"><strong>PV gerais</strong></td>\n<td style=\"text-align: center;\">18</td>\n</tr>\n<tr class=\"even\">\n<td style=\"text-align: center;\"><strong>NA</strong></td>\n<td style=\"text-align: center;\">12</td>\n</tr>\n<tr class=\"odd\">\n<td style=\"text-align: center;\"><strong>PR</strong></td>\n<td style=\"text-align: center;\">0</td>\n</tr>\n<tr class=\"even\">\n<td style=\"text-align: center;\"><strong>Deslocamento</strong></td>\n<td style=\"text-align: center;\">9 m</td>\n</tr>\n<tr class=\"odd\">\n<td style=\"text-align: center;\"><strong>Ações</strong></td>\n<td style=\"text-align: center;\">3; até 1 ataque por turno</td>\n</tr>\n<tr class=\"even\">\n<td style=\"text-align: center;\"><strong>Reação</strong></td>\n<td style=\"text-align: center;\">1, recuperada no início do turno</td>\n</tr>\n<tr class=\"odd\">\n<td style=\"text-align: center;\"><strong>Modificadores</strong></td>\n<td style=\"text-align: center;\">Força +2; Agilidade +2; Constituição +2; Vontade +1</td>\n</tr>\n<tr class=\"even\">\n<td style=\"text-align: center;\"><strong>Fobias ativadas</strong></td>\n<td style=\"text-align: center;\">Zoofobia, enquanto representar uma ameaça</td>\n</tr>\n</tbody>\n</table>\n<h3><strong>Anatomia</strong></h3>\n<table>\n<colgroup>\n<col style=\"width: 33%\" />\n<col style=\"width: 33%\" />\n<col style=\"width: 33%\" />\n</colgroup>\n<thead>\n<tr class=\"header\">\n<th style=\"text-align: center;\">Parte</th>\n<th style=\"text-align: center;\">Limite</th>\n<th style=\"text-align: center;\">Consequência da destruição</th>\n</tr>\n</thead>\n<tbody>\n<tr class=\"odd\">\n<td style=\"text-align: center;\">Cabeça</td>\n<td style=\"text-align: center;\">7</td>\n<td style=\"text-align: center;\">Morte imediata.</td>\n</tr>\n<tr class=\"even\">\n<td style=\"text-align: center;\">Cada pata</td>\n<td style=\"text-align: center;\">4</td>\n<td style=\"text-align: center;\">Uma perdida: deslocamento 6 m. Duas ou mais: fica Caída e deslocamento 1,5 m.</td>\n</tr>\n</tbody>\n</table>\n<h3><strong>Ataques e Capacidades</strong></h3>\n<p><strong>Mordida — 1 ação.</strong> Ataque <strong>+3</strong>, alcance <strong>1,5 m</strong>, dano <strong>1d6 + 1 perfurante</strong>. Pode ser declarada como ataque letal.</p>\n<p>Se causar dano após PR, o alvo realiza <strong>Constituição CD 12</strong>. Em caso de falha, sofre Sangramento.</p>\n<p><strong>Uivo — 1 ação.</strong> Sua próxima Mordida recebe <strong>+2 para acertar</strong>, desde que realizada até o final do próximo turno. Não acumula.</p>\n<p><strong>Farejar — 1 ação.</strong> Realiza Percepção com <strong>+4</strong> para localizar rastros ou criaturas próximas pelo cheiro. Identificar uma direção não revela automaticamente distância, identidade ou passagem segura.</p>\n<p><strong>Contra-ataque:</strong> Mordida.</p>\n<h3><strong>Distração</strong></h3>\n<p>Um personagem pode gastar <strong>1 ação</strong> para lançar um galho apropriado ou oferecer uma porção de carne.</p>\n<p>Na primeira vez que isso ocorrer durante o encontro, Moonless se distrai: até o início de seu próximo turno, <strong>não realiza reações</strong>, e no próximo turno dedica <strong>uma ação</strong> a examinar ou buscar o objeto.</p>\n<p>A mesma distração não produz esse benefício novamente no mesmo encontro.</p>\n<h3><strong>Recrutamento</strong></h3>\n<p>Um personagem pode gastar <strong>1 ação</strong> para oferecer uma porção de <strong>carne estragada</strong>, colocando-a ao alcance sem atacar.</p>\n<p>Depois de consumir <strong>duas porções oferecidas em ações separadas</strong>, Moonless deixa de ser hostil e pode acompanhar o grupo. Não é necessário um teste.</p>\n<p>Se alguém atacá-la entre as ofertas, o progresso é perdido. Ela só aceita uma nova aproximação depois que o confronto terminar e houver uma oportunidade plausível de restabelecer confiança.</p>\n<h3><strong>Moonless como Companheira</strong></h3>\n<ul>\n<li>Utiliza esta mesma ficha, com os PV, ferimentos e membros que conservava ao ser recrutada.<br />\n</li>\n<li>Suas ações pertencem somente a ela; não podem ser concedidas aos personagens.<br />\n</li>\n<li>Pode receber comandos simples de um companheiro, sem custo de ação: acompanhar, esperar, atacar ou recuar.<br />\n</li>\n<li>Não utiliza armas, pergaminhos ou itens que exijam mãos.<br />\n</li>\n<li>Necessita de alimento e água conforme as regras de sobrevivência.<br />\n</li>\n<li>Não ativa Zoofobia apenas por acompanhar o grupo pacificamente.<br />\n</li>\n<li>Não recebe automaticamente o vínculo de retorno dos personagens. Se morrer, permanece morta, salvo intervenção específica.</li>\n</ul>\n<h3><strong>Rito da Morte</strong></h3>\n<p>Não possui.</p>\n<h3><strong>Consequência da Derrota Total</strong></h3>\n<p>Enquanto hostil, pode devorar os corpos após a derrota total. A reconstituição permite o retorno, preservando mutilações anteriores e deixando os equipamentos no local.</p>\n<p>Esse comportamento não ocorre enquanto ela for companheira do grupo.</p>\n<hr />\n"
+  },
+  "flags": {
+   "sangue-escuro-fear-and-hunger": {
+    "anatomia": [
+     {
+      "nome": "Cabeça",
+      "limite": 7,
+      "consequencia": "Morte imediata.",
+      "destruida": false
+     },
+     {
+      "nome": "Pata direita",
+      "limite": 4,
+      "consequencia": "Uma perdida: deslocamento 6 m. Duas ou mais: fica Caída e deslocamento 1,5 m.",
+      "destruida": false
+     },
+     {
+      "nome": "Pata esquerda",
+      "limite": 4,
+      "consequencia": "Uma perdida: deslocamento 6 m. Duas ou mais: fica Caída e deslocamento 1,5 m.",
+      "destruida": false
+     }
+    ],
+    "fobiasAtivadas": [
+     "Zoofobia"
+    ],
+    "rito": {
+     "disponivel": false,
+     "sinal": "",
+     "interrupcao": ""
+    }
+   }
+  }
+ },
+ {
+  "name": "Prisoner",
+  "type": "criatura",
+  "img": "icons/svg/skull.svg",
+  "pasta": "Criaturas das Profundezas",
+  "system": {
+   "atributos": {
+    "for": {
+     "valor": 12
+    },
+    "agi": {
+     "valor": 8
+    },
+    "con": {
+     "valor": 14
+    },
+    "san": {
+     "valor": 6
+    }
+   },
+   "pv": {
+    "value": 12,
+    "max": 12
+   },
+   "na": 9,
+   "pr": 0,
+   "deslocamento": 4.5,
+   "iniciativa": -1,
+   "ataque": 2,
+   "dano": "1d4",
+   "tipoDano": "Cortante",
+   "semCirculacao": true,
+   "notas": "<p><em>Morto-vivo (Médio)</em></p>\n<p>Um homem esvaziado de sangue permanece de pé por uma necromancia instável. Sua fala interrompida e seus movimentos hesitantes sugerem que ainda tenta compreender a própria existência.</p>\n<table>\n<colgroup>\n<col style=\"width: 50%\" />\n<col style=\"width: 50%\" />\n</colgroup>\n<thead>\n<tr class=\"header\">\n<th style=\"text-align: center;\">Característica</th>\n<th style=\"text-align: center;\">Valor</th>\n</tr>\n</thead>\n<tbody>\n<tr class=\"odd\">\n<td style=\"text-align: center;\"><strong>PV gerais</strong></td>\n<td style=\"text-align: center;\">12</td>\n</tr>\n<tr class=\"even\">\n<td style=\"text-align: center;\"><strong>NA</strong></td>\n<td style=\"text-align: center;\">9</td>\n</tr>\n<tr class=\"odd\">\n<td style=\"text-align: center;\"><strong>PR</strong></td>\n<td style=\"text-align: center;\">0</td>\n</tr>\n<tr class=\"even\">\n<td style=\"text-align: center;\"><strong>Deslocamento</strong></td>\n<td style=\"text-align: center;\">4,5 m</td>\n</tr>\n<tr class=\"odd\">\n<td style=\"text-align: center;\"><strong>Ações</strong></td>\n<td style=\"text-align: center;\">3; até 2 ataques por turno</td>\n</tr>\n<tr class=\"even\">\n<td style=\"text-align: center;\"><strong>Reação</strong></td>\n<td style=\"text-align: center;\">1, recuperada no início do turno</td>\n</tr>\n<tr class=\"odd\">\n<td style=\"text-align: center;\"><strong>Modificadores</strong></td>\n<td style=\"text-align: center;\">Força +1; Agilidade −1; Constituição +2; Vontade −2</td>\n</tr>\n<tr class=\"even\">\n<td style=\"text-align: center;\"><strong>Fobias ativadas</strong></td>\n<td style=\"text-align: center;\">Necrofobia</td>\n</tr>\n</tbody>\n</table>\n<h3><strong>Anatomia</strong></h3>\n<table>\n<colgroup>\n<col style=\"width: 33%\" />\n<col style=\"width: 33%\" />\n<col style=\"width: 33%\" />\n</colgroup>\n<thead>\n<tr class=\"header\">\n<th style=\"text-align: center;\">Parte</th>\n<th style=\"text-align: center;\">Limite</th>\n<th style=\"text-align: center;\">Consequência da destruição</th>\n</tr>\n</thead>\n<tbody>\n<tr class=\"odd\">\n<td style=\"text-align: center;\"><strong>Cabeça</strong></td>\n<td style=\"text-align: center;\">4</td>\n<td style=\"text-align: center;\">Perde Mordida e a capacidade de falar; não morre.</td>\n</tr>\n<tr class=\"even\">\n<td style=\"text-align: center;\"><strong>Cada braço</strong></td>\n<td style=\"text-align: center;\">3</td>\n<td style=\"text-align: center;\">Perde Arranhão com aquele braço.</td>\n</tr>\n<tr class=\"odd\">\n<td style=\"text-align: center;\"><strong>Cada perna</strong></td>\n<td style=\"text-align: center;\">4</td>\n<td style=\"text-align: center;\">Uma perdida: deslocamento reduzido à metade. Ambas: fica Caída e só pode se arrastar 1,5 m.</td>\n</tr>\n</tbody>\n</table>\n<h3><strong>Ataques e Capacidades</strong></h3>\n<p><strong>Arranhão — 1 ação.</strong> Ataque <strong>+2</strong>, alcance <strong>1,5 m</strong>, dano <strong>1d4 cortante</strong>. Cada braço pode realizar somente um Arranhão por turno.</p>\n<p><strong>Mordida Suja — 1 ação.</strong> Ataque <strong>+1</strong>, alcance <strong>1,5 m</strong>, dano <strong>1d4 perfurante</strong>. Se causar dano após PR, o alvo realiza <strong>Constituição CD 12</strong>. Em caso de falha, adquire Infecção Comum no ferimento.</p>\n<p>Exige a cabeça.</p>\n<p><strong>Encontrão — 1 ação.</strong> Ataque <strong>+1</strong>, alcance <strong>1,5 m</strong>, dano <strong>1d3 contusivo</strong>. Pode ser utilizado sem braços ou cabeça.</p>\n<p><strong>Olhar Vazio — 1 ação.</strong> Permanece imóvel, tentando reconhecer a criatura mais próxima. Não produz efeito sobrenatural.</p>\n<p><strong>Contra-ataque:</strong> Arranhão, Mordida Suja ou Encontrão.</p>\n<h3><strong>Natureza Morta</strong></h3>\n<p>Não precisa respirar, comer ou beber. É imune a Sangramento, Hemorragia Grave, venenos e doenças comuns.</p>\n<p>Não pode ser nocauteado por privação de ar. Sua cabeça não é vital: destruí-la não encerra a necromancia que sustenta o corpo.</p>\n<h3><strong>Fraqueza — Existência Frágil</strong></h3>\n<p>Um personagem que consiga falar com o Prisioneiro pode gastar 1 ação para confrontá-lo verbalmente.</p>\n<p><strong>Anunciar sua morte.</strong> Se declarar de maneira direta que pretende encerrá-lo, o Prisioneiro abaixa os braços. Até o início de seu próximo turno, ele não realiza reações.</p>\n<p><strong>Revelar sua natureza.</strong> Um personagem que já tenha reconhecido sua condição necromântica pode gastar <strong>1 ação</strong> explicando que ele morreu e está sendo mantido por magia. O Prisioneiro desaba e é derrotado sem combate adicional.</p>\n<p>Para reconhecer essa condição antes da explicação, o personagem pode gastar <strong>1 ação</strong> observando-o e realizar <strong>Investigação CD 12</strong>.</p>\n<p>A fraqueza verbal exige que ele ainda possua a cabeça e consiga ouvir e compreender o interlocutor.</p>\n<h3><strong>Rito da Morte</strong></h3>\n<p>Não possui.</p>\n<h3><strong>Objetos Recuperáveis</strong></h3>\n<p>Trapos, uma porção de carne estragada e qualquer objeto específico colocado pelo cenário.</p>\n<h3><strong>Consequência da Derrota Total</strong></h3>\n<p>Se permanecer com acesso aos corpos, morde e contamina os ferimentos das vítimas.</p>\n<p>Cada personagem retorna com <strong>Infecção Comum</strong>, sem novo teste de resistência. Essa consequência exige que o Prisioneiro ainda possua a cabeça.</p>\n"
+  },
+  "flags": {
+   "sangue-escuro-fear-and-hunger": {
+    "anatomia": [
+     {
+      "nome": "Cabeça",
+      "limite": 4,
+      "consequencia": "Perde Mordida e a capacidade de falar; não morre.",
+      "destruida": false
+     },
+     {
+      "nome": "Braço direito",
+      "limite": 3,
+      "consequencia": "Perde Arranhão com aquele braço.",
+      "destruida": false
+     },
+     {
+      "nome": "Braço esquerdo",
+      "limite": 3,
+      "consequencia": "Perde Arranhão com aquele braço.",
+      "destruida": false
+     },
+     {
+      "nome": "Perna direita",
+      "limite": 4,
+      "consequencia": "Uma perdida: deslocamento reduzido à metade. Ambas: fica Caída e só pode se arrastar 1,5 m.",
+      "destruida": false
+     },
+     {
+      "nome": "Perna esquerda",
+      "limite": 4,
+      "consequencia": "Uma perdida: deslocamento reduzido à metade. Ambas: fica Caída e só pode se arrastar 1,5 m.",
+      "destruida": false
+     }
+    ],
+    "fobiasAtivadas": [
+     "Necrofobia"
+    ],
+    "rito": {
+     "disponivel": false,
+     "sinal": "",
+     "interrupcao": ""
+    }
+   }
+  }
+ }
+]

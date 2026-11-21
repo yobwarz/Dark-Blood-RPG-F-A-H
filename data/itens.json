@@ -1,0 +1,1489 @@
+[
+  {
+    "name": "Faca ou adaga",
+    "type": "arma",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/12_faca.png",
+    "pasta": "Armas",
+    "system": {
+      "categoria": "branca",
+      "subgrupo": "Corpo a corpo",
+      "dano": "1d4",
+      "tipoDano": "Perfurante",
+      "atributo": "agi",
+      "somaAtributoDano": true,
+      "margemCritico": 20,
+      "capacidade": 0,
+      "municao": "",
+      "acoesPorAtaque": 1,
+      "longa": false,
+      "durabilidade": {
+        "value": 10,
+        "max": 10
+      },
+      "descricao": "Uma mão. Ataque letal: Sim."
+    },
+    "flags": {
+      "sangue-escuro-fear-and-hunger": {
+        "letal": "sim",
+        "uso": "Uma mão"
+      }
+    }
+  },
+  {
+    "name": "Porrete",
+    "type": "arma",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/delapouite-wood-club.svg",
+    "pasta": "Armas",
+    "system": {
+      "categoria": "branca",
+      "subgrupo": "Corpo a corpo",
+      "dano": "1d4",
+      "tipoDano": "Contundente",
+      "atributo": "for",
+      "somaAtributoDano": true,
+      "margemCritico": 20,
+      "capacidade": 0,
+      "municao": "",
+      "acoesPorAtaque": 1,
+      "longa": false,
+      "durabilidade": {
+        "value": 10,
+        "max": 10
+      },
+      "descricao": "Uma mão. Ataque letal: Não."
+    },
+    "flags": {
+      "sangue-escuro-fear-and-hunger": {
+        "letal": "nao",
+        "uso": "Uma mão"
+      }
+    }
+  },
+  {
+    "name": "Espada curta",
+    "type": "arma",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/lorc-broadsword.svg",
+    "pasta": "Armas",
+    "system": {
+      "categoria": "branca",
+      "subgrupo": "Corpo a corpo",
+      "dano": "1d6",
+      "tipoDano": "Cortante",
+      "atributo": "for",
+      "somaAtributoDano": true,
+      "margemCritico": 20,
+      "capacidade": 0,
+      "municao": "",
+      "acoesPorAtaque": 1,
+      "longa": false,
+      "durabilidade": {
+        "value": 10,
+        "max": 10
+      },
+      "descricao": "Uma mão. Ataque letal: Sim."
+    },
+    "flags": {
+      "sangue-escuro-fear-and-hunger": {
+        "letal": "sim",
+        "uso": "Uma mão"
+      }
+    }
+  },
+  {
+    "name": "Machado de mão",
+    "type": "arma",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/delapouite-war-axe.svg",
+    "pasta": "Armas",
+    "system": {
+      "categoria": "branca",
+      "subgrupo": "Corpo a corpo",
+      "dano": "1d6",
+      "tipoDano": "Cortante",
+      "atributo": "for",
+      "somaAtributoDano": true,
+      "margemCritico": 20,
+      "capacidade": 0,
+      "municao": "",
+      "acoesPorAtaque": 1,
+      "longa": false,
+      "durabilidade": {
+        "value": 10,
+        "max": 10
+      },
+      "descricao": "Uma mão. Ataque letal: Sim."
+    },
+    "flags": {
+      "sangue-escuro-fear-and-hunger": {
+        "letal": "sim",
+        "uso": "Uma mão"
+      }
+    }
+  },
+  {
+    "name": "Lança",
+    "type": "arma",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/lorc-spears.svg",
+    "pasta": "Armas",
+    "system": {
+      "categoria": "branca",
+      "subgrupo": "Corpo a corpo",
+      "dano": "1d6",
+      "tipoDano": "Perfurante",
+      "atributo": "for",
+      "somaAtributoDano": true,
+      "margemCritico": 20,
+      "capacidade": 0,
+      "municao": "",
+      "acoesPorAtaque": 1,
+      "longa": false,
+      "durabilidade": {
+        "value": 10,
+        "max": 10
+      },
+      "descricao": "Uma mão; alcance de 3 m. Ataque letal: Sim."
+    },
+    "flags": {
+      "sangue-escuro-fear-and-hunger": {
+        "letal": "sim",
+        "uso": "Uma mão; alcance de 3 m"
+      }
+    }
+  },
+  {
+    "name": "Maça",
+    "type": "arma",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/delapouite-flanged-mace.svg",
+    "pasta": "Armas",
+    "system": {
+      "categoria": "branca",
+      "subgrupo": "Corpo a corpo",
+      "dano": "1d6",
+      "tipoDano": "Contundente",
+      "atributo": "for",
+      "somaAtributoDano": true,
+      "margemCritico": 20,
+      "capacidade": 0,
+      "municao": "",
+      "acoesPorAtaque": 1,
+      "longa": false,
+      "durabilidade": {
+        "value": 10,
+        "max": 10
+      },
+      "descricao": "Uma mão. Ataque letal: Sim, por esmagamento."
+    },
+    "flags": {
+      "sangue-escuro-fear-and-hunger": {
+        "letal": "esmagamento",
+        "uso": "Uma mão"
+      }
+    }
+  },
+  {
+    "name": "Espada longa",
+    "type": "arma",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/lorc-broadsword.svg",
+    "pasta": "Armas",
+    "system": {
+      "categoria": "branca",
+      "subgrupo": "Corpo a corpo",
+      "dano": "1d8",
+      "tipoDano": "Cortante",
+      "atributo": "for",
+      "somaAtributoDano": true,
+      "margemCritico": 20,
+      "capacidade": 0,
+      "municao": "",
+      "acoesPorAtaque": 1,
+      "longa": true,
+      "durabilidade": {
+        "value": 10,
+        "max": 10
+      },
+      "descricao": "Duas mãos. Ataque letal: Sim."
+    },
+    "flags": {
+      "sangue-escuro-fear-and-hunger": {
+        "letal": "sim",
+        "uso": "Duas mãos"
+      }
+    }
+  },
+  {
+    "name": "Machado pesado",
+    "type": "arma",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/delapouite-war-axe.svg",
+    "pasta": "Armas",
+    "system": {
+      "categoria": "branca",
+      "subgrupo": "Corpo a corpo",
+      "dano": "1d10",
+      "tipoDano": "Cortante",
+      "atributo": "for",
+      "somaAtributoDano": true,
+      "margemCritico": 20,
+      "capacidade": 0,
+      "municao": "",
+      "acoesPorAtaque": 2,
+      "longa": true,
+      "durabilidade": {
+        "value": 10,
+        "max": 10
+      },
+      "descricao": "Duas mãos. Ataque letal: Sim."
+    },
+    "flags": {
+      "sangue-escuro-fear-and-hunger": {
+        "letal": "sim",
+        "uso": "Duas mãos"
+      }
+    }
+  },
+  {
+    "name": "Arco",
+    "type": "arma",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/delapouite-bow-arrow.svg",
+    "pasta": "Armas",
+    "system": {
+      "categoria": "improvisada",
+      "subgrupo": "À distância",
+      "dano": "1d6",
+      "tipoDano": "Perfurante",
+      "atributo": "agi",
+      "somaAtributoDano": false,
+      "margemCritico": 20,
+      "capacidade": 1,
+      "municao": "Projétil",
+      "acoesPorAtaque": 1,
+      "longa": true,
+      "durabilidade": {
+        "value": 10,
+        "max": 10
+      },
+      "descricao": "Duas mãos; alcance de 18 m. Ataque letal: Sim."
+    },
+    "flags": {
+      "sangue-escuro-fear-and-hunger": {
+        "letal": "sim",
+        "uso": "Duas mãos; alcance de 18 m"
+      }
+    }
+  },
+  {
+    "name": "Besta",
+    "type": "arma",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/06_besta.png",
+    "pasta": "Armas",
+    "system": {
+      "categoria": "improvisada",
+      "subgrupo": "À distância",
+      "dano": "1d8",
+      "tipoDano": "Perfurante",
+      "atributo": "agi",
+      "somaAtributoDano": false,
+      "margemCritico": 20,
+      "capacidade": 1,
+      "municao": "Projétil",
+      "acoesPorAtaque": 1,
+      "longa": true,
+      "durabilidade": {
+        "value": 10,
+        "max": 10
+      },
+      "descricao": "Duas mãos; alcance de 18 m. Ataque letal: Sim."
+    },
+    "flags": {
+      "sangue-escuro-fear-and-hunger": {
+        "letal": "sim",
+        "uso": "Duas mãos; alcance de 18 m"
+      }
+    }
+  },
+  {
+    "name": "Roupas comuns",
+    "type": "protecao",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/delapouite-t-shirt.svg",
+    "pasta": "Trajes",
+    "system": {
+      "pr": 0,
+      "compartimentos": 1,
+      "durabilidade": {
+        "value": 10,
+        "max": 10
+      },
+      "descricao": "Cada peça indica as partes do corpo que protege. Proteções sobrepostas não somam PR."
+    }
+  },
+  {
+    "name": "Traje acolchoado",
+    "type": "protecao",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/lorc-armor-vest.svg",
+    "pasta": "Trajes",
+    "system": {
+      "pr": 1,
+      "compartimentos": 1,
+      "durabilidade": {
+        "value": 10,
+        "max": 10
+      },
+      "descricao": "Cada peça indica as partes do corpo que protege. Proteções sobrepostas não somam PR."
+    }
+  },
+  {
+    "name": "Proteção de couro reforçado",
+    "type": "protecao",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/lorc-leather-vest.svg",
+    "pasta": "Trajes",
+    "system": {
+      "pr": 1,
+      "compartimentos": 1,
+      "durabilidade": {
+        "value": 10,
+        "max": 10
+      },
+      "descricao": "Cada peça indica as partes do corpo que protege. Proteções sobrepostas não somam PR."
+    }
+  },
+  {
+    "name": "Cota de malha",
+    "type": "protecao",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/lorc-mail-shirt.svg",
+    "pasta": "Trajes",
+    "system": {
+      "pr": 2,
+      "compartimentos": 1,
+      "durabilidade": {
+        "value": 10,
+        "max": 10
+      },
+      "descricao": "Cada peça indica as partes do corpo que protege. Proteções sobrepostas não somam PR."
+    }
+  },
+  {
+    "name": "Armadura de placas",
+    "type": "protecao",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/delapouite-chest-armor.svg",
+    "pasta": "Trajes",
+    "system": {
+      "pr": 3,
+      "compartimentos": 1,
+      "durabilidade": {
+        "value": 10,
+        "max": 10
+      },
+      "descricao": "Cada peça indica as partes do corpo que protege. Proteções sobrepostas não somam PR."
+    }
+  },
+  {
+    "name": "Tocha",
+    "type": "equipamento",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/delapouite-torch.svg",
+    "pasta": "Iluminação e Ferramentas",
+    "system": {
+      "categoria": "ferramenta",
+      "quantidade": 1,
+      "compartimentosFixos": 1,
+      "usos": 0,
+      "descricao": "Ilumina claramente até 6 m e parcialmente por mais 6 m. Dura 1 hora acesa, exige uma mão e é consumida pelo uso."
+    }
+  },
+  {
+    "name": "Lamparina",
+    "type": "equipamento",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/delapouite-old-lantern.svg",
+    "pasta": "Iluminação e Ferramentas",
+    "system": {
+      "categoria": "ferramenta",
+      "quantidade": 1,
+      "compartimentosFixos": 1,
+      "usos": 0,
+      "descricao": "Produz a mesma iluminação da tocha. Um frasco de óleo mantém sua chama por 4 horas. Exige uma mão ou uma superfície de apoio."
+    }
+  },
+  {
+    "name": "Frasco de óleo",
+    "type": "equipamento",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/delapouite-oil-can.svg",
+    "pasta": "Iluminação e Ferramentas",
+    "system": {
+      "categoria": "ferramenta",
+      "quantidade": 1,
+      "compartimentosFixos": 1,
+      "usos": 0,
+      "descricao": "Uma carga para lamparina. Óleo derramado pode alimentar fogo, mas não explode por conta própria."
+    }
+  },
+  {
+    "name": "Pederneira",
+    "type": "equipamento",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/delapouite-flint-spark.svg",
+    "pasta": "Iluminação e Ferramentas",
+    "system": {
+      "categoria": "ferramenta",
+      "quantidade": 1,
+      "compartimentosFixos": 1,
+      "usos": 0,
+      "descricao": "Acende material combustível seco. Custa 1 ação com o combustível preparado; condições adversas podem exigir mais tempo."
+    }
+  },
+  {
+    "name": "Corda de 10 m",
+    "type": "equipamento",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/delapouite-rope-coil.svg",
+    "pasta": "Iluminação e Ferramentas",
+    "system": {
+      "categoria": "ferramenta",
+      "quantidade": 1,
+      "compartimentosFixos": 1,
+      "usos": 0,
+      "descricao": "Permite escalar, prender objetos ou auxiliar travessias. Precisa de apoio e ancoragem apropriados."
+    }
+  },
+  {
+    "name": "Pé de cabra",
+    "type": "equipamento",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/delapouite-crowbar.svg",
+    "pasta": "Iluminação e Ferramentas",
+    "system": {
+      "categoria": "ferramenta",
+      "quantidade": 1,
+      "compartimentosFixos": 1,
+      "usos": 0,
+      "descricao": "Concede +2 a testes de Força para forçar portas, tampas ou grades quando sua alavanca for útil."
+    }
+  },
+  {
+    "name": "Giz ritual",
+    "type": "equipamento",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/lorc-magic-swirl.svg",
+    "pasta": "Iluminação e Ferramentas",
+    "system": {
+      "categoria": "ferramenta",
+      "quantidade": 1,
+      "compartimentosFixos": 1,
+      "usos": 3,
+      "descricao": "Possui 3 usos. Cada uso permite desenhar um símbolo ritual de tamanho suficiente para uma pessoa. Não concede conhecimento sobre o símbolo."
+    }
+  },
+  {
+    "name": "Frasco vazio",
+    "type": "equipamento",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/sbed-vial.svg",
+    "pasta": "Iluminação e Ferramentas",
+    "system": {
+      "categoria": "ferramenta",
+      "quantidade": 1,
+      "compartimentosFixos": 1,
+      "usos": 0,
+      "descricao": "Armazena até 500 mL de líquido. Um recipiente contaminado pode comprometer seu conteúdo."
+    }
+  },
+  {
+    "name": "Pano limpo",
+    "type": "equipamento",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/delapouite-rolled-cloth.svg",
+    "pasta": "Iluminação e Ferramentas",
+    "system": {
+      "categoria": "ferramenta",
+      "quantidade": 1,
+      "compartimentosFixos": 1,
+      "usos": 0,
+      "descricao": "Serve para envolver objetos, filtrar resíduos maiores ou improvisar uma compressa. Não torna água potável e não substitui uma bandagem preparada."
+    }
+  },
+  {
+    "name": "Bandagem limpa",
+    "type": "equipamento",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/lorc-bandage-roll.svg",
+    "pasta": "Tratamento e Consumíveis",
+    "system": {
+      "categoria": "medico",
+      "quantidade": 1,
+      "compartimentosFixos": 1,
+      "usos": 0,
+      "descricao": "Aplicada em um ferimento acessível, encerra um Sangramento comum. Não recupera PV."
+    },
+    "flags": {
+      "sangue-escuro-fear-and-hunger": {
+        "consumivel": true,
+        "efeitos": [
+          {
+            "tipo": "condicao",
+            "remover": "sangramento"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Conjunto de tratamento",
+    "type": "equipamento",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/delapouite-first-aid-kit.svg",
+    "pasta": "Tratamento e Consumíveis",
+    "system": {
+      "categoria": "medico",
+      "quantidade": 1,
+      "compartimentosFixos": 1,
+      "usos": 3,
+      "descricao": "Possui 3 usos. Cada tratamento consome um uso e permite aplicar as regras gerais de Medicina."
+    },
+    "flags": {
+      "sangue-escuro-fear-and-hunger": {
+        "consumivel": true,
+        "efeitos": [
+          {
+            "tipo": "texto"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Erva azul preparada",
+    "type": "equipamento",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/delapouite-herbs-bundle.svg",
+    "pasta": "Tratamento e Consumíveis",
+    "system": {
+      "categoria": "medico",
+      "quantidade": 1,
+      "compartimentosFixos": 1,
+      "usos": 0,
+      "descricao": "Consumida, recupera 1d4 PV. Não remove ferimentos, doenças ou mutilações."
+    },
+    "flags": {
+      "sangue-escuro-fear-and-hunger": {
+        "consumivel": true,
+        "efeitos": [
+          {
+            "tipo": "pv",
+            "formula": "1d4"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Erva vermelha",
+    "type": "equipamento",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/delapouite-herbs-bundle.svg",
+    "pasta": "Tratamento e Consumíveis",
+    "system": {
+      "categoria": "medico",
+      "quantidade": 1,
+      "compartimentosFixos": 1,
+      "usos": 0,
+      "descricao": "Reagente medicinal. Sozinha não recupera PV; combinada com uma erva azul preparada, produz uma mistura restauradora."
+    },
+    "flags": {
+      "sangue-escuro-fear-and-hunger": {
+        "consumivel": true,
+        "efeitos": [
+          {
+            "tipo": "texto"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Mistura restauradora",
+    "type": "equipamento",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/skoll-pestle-mortar.svg",
+    "pasta": "Tratamento e Consumíveis",
+    "system": {
+      "categoria": "medico",
+      "quantidade": 1,
+      "compartimentosFixos": 1,
+      "usos": 0,
+      "descricao": "Recupera 1d4 + 2 PV, até o máximo do personagem."
+    },
+    "flags": {
+      "sangue-escuro-fear-and-hunger": {
+        "consumivel": true,
+        "efeitos": [
+          {
+            "tipo": "pv",
+            "formula": "1d4+2"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Erva verde preparada",
+    "type": "equipamento",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/delapouite-herbs-bundle.svg",
+    "pasta": "Tratamento e Consumíveis",
+    "system": {
+      "categoria": "medico",
+      "quantidade": 1,
+      "compartimentosFixos": 1,
+      "usos": 0,
+      "descricao": "Encerra uma infecção comum de ferimento em estágio inicial. Não cura necrose, parasitas ou infecções sobrenaturais."
+    },
+    "flags": {
+      "sangue-escuro-fear-and-hunger": {
+        "consumivel": true,
+        "efeitos": [
+          {
+            "tipo": "infeccao"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Antídoto específico",
+    "type": "equipamento",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/delapouite-medicine-pills.svg",
+    "pasta": "Tratamento e Consumíveis",
+    "system": {
+      "categoria": "medico",
+      "quantidade": 1,
+      "compartimentosFixos": 1,
+      "usos": 0,
+      "descricao": "Encerra o envenenamento indicado em sua descrição. Não é eficaz contra todos os venenos."
+    },
+    "flags": {
+      "sangue-escuro-fear-and-hunger": {
+        "consumivel": true,
+        "efeitos": [
+          {
+            "tipo": "condicao",
+            "remover": "envenenado"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Remédio específico",
+    "type": "equipamento",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/delapouite-medicine-pills.svg",
+    "pasta": "Tratamento e Consumíveis",
+    "system": {
+      "categoria": "medico",
+      "quantidade": 1,
+      "compartimentosFixos": 1,
+      "usos": 0,
+      "descricao": "Trata a doença ou condição indicada em sua descrição, respeitando o tempo de tratamento."
+    },
+    "flags": {
+      "sangue-escuro-fear-and-hunger": {
+        "consumivel": true,
+        "efeitos": [
+          {
+            "tipo": "texto"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Elixir da Saúde",
+    "type": "equipamento",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/delapouite-health-potion.svg",
+    "pasta": "Tratamento e Consumíveis",
+    "system": {
+      "categoria": "medico",
+      "quantidade": 1,
+      "compartimentosFixos": 1,
+      "usos": 0,
+      "descricao": "Remove 1 nível de Exaustão, incluindo Exaustão pela Morte. É consumido após o uso."
+    },
+    "flags": {
+      "sangue-escuro-fear-and-hunger": {
+        "consumivel": true,
+        "efeitos": [
+          {
+            "tipo": "exaustao",
+            "n": 1
+          },
+          {
+            "tipo": "condicao",
+            "remover": "envenenado"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Pergaminho da Vitalidade",
+    "type": "equipamento",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/lorc-tied-scroll.svg",
+    "pasta": "Pergaminhos",
+    "system": {
+      "categoria": "documento",
+      "quantidade": 1,
+      "compartimentosFixos": 1,
+      "descricao": "Utilizar custa 1 ação, consome o pergaminho e remove 1 nível de Exaustão, incluindo Exaustão pela Morte."
+    },
+    "flags": {
+      "sangue-escuro-fear-and-hunger": {
+        "tipo": "pergaminho",
+        "magia": "Feitiço da Vitalidade",
+        "consumivel": true,
+        "efeitos": [
+          {
+            "tipo": "exaustao",
+            "n": 1
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Pedra de Alma ocupada",
+    "type": "equipamento",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/delapouite-soul-vessel.svg",
+    "pasta": "Rituais",
+    "system": {
+      "categoria": "diverso",
+      "quantidade": 1,
+      "compartimentosFixos": 1,
+      "descricao": "Recompensa rara. Paga uma única Consagração Sombria de Arma e é consumida no ritual."
+    }
+  },
+  {
+    "name": "Mercenário: Golpe Calculado",
+    "type": "habilidade",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/lorc-crossed-swords.svg",
+    "pasta": "Classes",
+    "system": {
+      "grupo": "Classe",
+      "custo": 0,
+      "prerequisito": "Classe Mercenário",
+      "usos": {
+        "value": 1,
+        "max": 1,
+        "recarga": "longo"
+      },
+      "descricao": "Acostumado a vender sua espada, o Mercenário conhece o valor de uma vantagem e o preço de uma luta prolongada. Golpe Calculado. Uma vez entre Descansos Longos, depois de acertar um ataque com arma, você pode acrescentar 2 ao dano. Esse dano conta para alcançar limites de mutilação."
+    },
+    "flags": {
+      "sangue-escuro-fear-and-hunger": {
+        "tipo": "classe",
+        "classe": "Mercenário"
+      }
+    }
+  },
+  {
+    "name": "Cavaleiro: Interposição",
+    "type": "habilidade",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/lorc-armor-vest.svg",
+    "pasta": "Classes",
+    "system": {
+      "grupo": "Classe",
+      "custo": 0,
+      "prerequisito": "Classe Cavaleiro",
+      "usos": {
+        "value": 1,
+        "max": 1,
+        "recarga": "longo"
+      },
+      "descricao": "Treinado para enfrentar ameaças de frente, o Cavaleiro pode carregar um juramento, uma ordem ou apenas os restos de sua antiga honra. Interposição. Uma vez entre Descansos Longos, quando um aliado a até 1,5 m for atingido por um ataque, você pode gastar sua reação para receber o ataque em seu lugar. Utilize sua própria PR. Você precisa conseguir alcançar e interpor-se entre o agressor e o aliado. Se o ataque era localizado, ele atinge a parte correspondente do seu corpo."
+    },
+    "flags": {
+      "sangue-escuro-fear-and-hunger": {
+        "tipo": "classe",
+        "classe": "Cavaleiro"
+      }
+    }
+  },
+  {
+    "name": "Sacerdote Sombrio: Conhecimento Proibido",
+    "type": "habilidade",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/lorc-cultist.svg",
+    "pasta": "Classes",
+    "system": {
+      "grupo": "Classe",
+      "custo": 0,
+      "prerequisito": "Classe Sacerdote Sombrio",
+      "usos": {
+        "value": 0,
+        "max": 0,
+        "recarga": ""
+      },
+      "descricao": "Iniciado em conhecimentos proibidos, o Sacerdote Sombrio reconhece sinais que outros confundem com superstição. Conhecimento Proibido. Você começa conhecendo uma magia aprendida: Truque Piromântico, Ferir ou Revelar Vestígios. Ela segue os custos e limites normais de conjuração. Esse conhecimento representa sua formação anterior e não exige um novo pacto durante a criação."
+    },
+    "flags": {
+      "sangue-escuro-fear-and-hunger": {
+        "tipo": "classe",
+        "classe": "Sacerdote Sombrio"
+      }
+    }
+  },
+  {
+    "name": "Forasteiro: Instinto de Perigo",
+    "type": "habilidade",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/lorc-footprint.svg",
+    "pasta": "Classes",
+    "system": {
+      "grupo": "Classe",
+      "custo": 0,
+      "prerequisito": "Classe Forasteiro",
+      "usos": {
+        "value": 1,
+        "max": 1,
+        "recarga": "longo"
+      },
+      "descricao": "Criado longe da segurança das cidades, o Forasteiro aprendeu a atravessar terrenos hostis e reconhecer ameaças antes de enfrentá-las. Instinto de Perigo. Uma vez entre Descansos Longos, você pode repetir um teste falhado de Percepção ou Furtividade, utilizando o novo resultado. Declare o uso imediatamente após a falha, antes de resolver suas consequências."
+    },
+    "flags": {
+      "sangue-escuro-fear-and-hunger": {
+        "tipo": "classe",
+        "classe": "Forasteiro"
+      }
+    }
+  },
+  {
+    "name": "Ladrão: Mãos Ligeiras",
+    "type": "habilidade",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/lorc-rogue.svg",
+    "pasta": "Classes",
+    "system": {
+      "grupo": "Classe",
+      "custo": 0,
+      "prerequisito": "Classe Ladrão",
+      "usos": {
+        "value": 1,
+        "max": 1,
+        "recarga": "longo"
+      },
+      "descricao": "Habituado a entrar onde não foi convidado, o Ladrão depende de movimentos discretos e oportunidades breves. Mãos Ligeiras. Uma vez entre Descansos Longos, você pode realizar Usar Objeto sem gastar uma ação durante seu turno, desde que o objeto esteja acessível. Essa capacidade não permite atacar, utilizar pergaminhos, conjurar ou realizar tratamentos demorados."
+    },
+    "flags": {
+      "sangue-escuro-fear-and-hunger": {
+        "tipo": "classe",
+        "classe": "Ladrão"
+      }
+    }
+  },
+  {
+    "name": "Médico: Intervenção Precisa",
+    "type": "habilidade",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/lorc-syringe.svg",
+    "pasta": "Classes",
+    "system": {
+      "grupo": "Classe",
+      "custo": 0,
+      "prerequisito": "Classe Médico",
+      "usos": {
+        "value": 1,
+        "max": 1,
+        "recarga": "longo"
+      },
+      "descricao": "Seu conhecimento foi adquirido entre feridos, cadáveres e suprimentos insuficientes. Manter alguém vivo raramente significa deixá-lo inteiro. Intervenção Precisa. Uma vez entre Descansos Longos, depois de realizar um teste de Medicina, você pode acrescentar +2 ao resultado, antes de resolver suas consequências."
+    },
+    "flags": {
+      "sangue-escuro-fear-and-hunger": {
+        "tipo": "classe",
+        "classe": "Médico"
+      }
+    }
+  },
+  {
+    "name": "Caçador: Observar a Presa",
+    "type": "habilidade",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/lorc-archery-target.svg",
+    "pasta": "Classes",
+    "system": {
+      "grupo": "Classe",
+      "custo": 0,
+      "prerequisito": "Classe Caçador",
+      "usos": {
+        "value": 1,
+        "max": 1,
+        "recarga": "longo"
+      },
+      "descricao": "O Caçador observa movimentos, reconhece hábitos e transforma a anatomia da presa em uma oportunidade. Observar a Presa. Uma vez entre Descansos Longos, você pode gastar 1 ação observando uma criatura perceptível. O mestre informa uma capacidade que depende de uma parte visível do corpo dela. Isso não revela PV, limites de mutilação ou características que não possam ser deduzidas pela observação."
+    },
+    "flags": {
+      "sangue-escuro-fear-and-hunger": {
+        "tipo": "classe",
+        "classe": "Caçador"
+      }
+    }
+  },
+  {
+    "name": "Condenado: Último Esforço",
+    "type": "habilidade",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/lorc-guillotine.svg",
+    "pasta": "Classes",
+    "system": {
+      "grupo": "Classe",
+      "custo": 0,
+      "prerequisito": "Classe Condenado",
+      "usos": {
+        "value": 1,
+        "max": 1,
+        "recarga": "longo"
+      },
+      "descricao": "A prisão, a tortura ou a perseguição ensinaram o Condenado a continuar agindo quando seu corpo pede que pare. Último Esforço. Uma vez entre Descansos Longos, antes de realizar um teste ou ataque, você pode ignorar a penalidade de Exaustão naquela rolagem. Essa capacidade não remove níveis de Exaustão, não recupera deslocamento e não impede a morte definitiva ao alcançar o sexto nível."
+    },
+    "flags": {
+      "sangue-escuro-fear-and-hunger": {
+        "tipo": "classe",
+        "classe": "Condenado"
+      }
+    }
+  },
+  {
+    "name": "Origem: Desertor",
+    "type": "habilidade",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/lorc-footprint.svg",
+    "pasta": "Origens",
+    "system": {
+      "grupo": "Origem",
+      "custo": 0,
+      "prerequisito": "Origem",
+      "descricao": "Proficiência: Furtividade (não consome PE; se já possuir, escolha Percepção, Investigação, Furtividade ou Medicina).\n\nFardo: Você abandonou uma companhia, exército ou ordem. Pessoas ligadas a essa organização podem reconhecê-lo e exigir sua captura.\n\nRegistre um detalhe concreto: o nome do credor, o segredo, a pessoa procurada ou a obrigação."
+    },
+    "flags": {
+      "sangue-escuro-fear-and-hunger": {
+        "tipo": "origem",
+        "origem": "Desertor",
+        "proficiencia": "Furtividade"
+      }
+    }
+  },
+  {
+    "name": "Origem: Veterano de Cerco",
+    "type": "habilidade",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/delapouite-castle.svg",
+    "pasta": "Origens",
+    "system": {
+      "grupo": "Origem",
+      "custo": 0,
+      "prerequisito": "Origem",
+      "descricao": "Proficiência: Percepção (não consome PE; se já possuir, escolha Percepção, Investigação, Furtividade ou Medicina).\n\nFardo: Uma decisão sua contribuiu para a morte de companheiros. Um sobrevivente conhece sua responsabilidade.\n\nRegistre um detalhe concreto: o nome do credor, o segredo, a pessoa procurada ou a obrigação."
+    },
+    "flags": {
+      "sangue-escuro-fear-and-hunger": {
+        "tipo": "origem",
+        "origem": "Veterano de Cerco",
+        "proficiencia": "Percepção"
+      }
+    }
+  },
+  {
+    "name": "Origem: Aprendiz de Cirurgião",
+    "type": "habilidade",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/lorc-syringe.svg",
+    "pasta": "Origens",
+    "system": {
+      "grupo": "Origem",
+      "custo": 0,
+      "prerequisito": "Origem",
+      "descricao": "Proficiência: Medicina (não consome PE; se já possuir, escolha Percepção, Investigação, Furtividade ou Medicina).\n\nFardo: Você participou de um procedimento proibido. Alguém procura suas anotações ou deseja impedir que testemunhe.\n\nRegistre um detalhe concreto: o nome do credor, o segredo, a pessoa procurada ou a obrigação."
+    },
+    "flags": {
+      "sangue-escuro-fear-and-hunger": {
+        "tipo": "origem",
+        "origem": "Aprendiz de Cirurgião",
+        "proficiencia": "Medicina"
+      }
+    }
+  },
+  {
+    "name": "Origem: Saqueador de Túmulos",
+    "type": "habilidade",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/lorc-coffin.svg",
+    "pasta": "Origens",
+    "system": {
+      "grupo": "Origem",
+      "custo": 0,
+      "prerequisito": "Origem",
+      "descricao": "Proficiência: Investigação (não consome PE; se já possuir, escolha Percepção, Investigação, Furtividade ou Medicina).\n\nFardo: Um objeto retirado de uma sepultura pertence a alguém que exige sua devolução.\n\nRegistre um detalhe concreto: o nome do credor, o segredo, a pessoa procurada ou a obrigação."
+    },
+    "flags": {
+      "sangue-escuro-fear-and-hunger": {
+        "tipo": "origem",
+        "origem": "Saqueador de Túmulos",
+        "proficiencia": "Investigação"
+      }
+    }
+  },
+  {
+    "name": "Origem: Devoto Excomungado",
+    "type": "habilidade",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/lorc-cultist.svg",
+    "pasta": "Origens",
+    "system": {
+      "grupo": "Origem",
+      "custo": 0,
+      "prerequisito": "Origem",
+      "descricao": "Proficiência: Investigação (não consome PE; se já possuir, escolha Percepção, Investigação, Furtividade ou Medicina).\n\nFardo: Sua antiga comunidade religiosa o considera um traidor. Seus símbolos e conhecimentos podem denunciá-lo.\n\nRegistre um detalhe concreto: o nome do credor, o segredo, a pessoa procurada ou a obrigação."
+    },
+    "flags": {
+      "sangue-escuro-fear-and-hunger": {
+        "tipo": "origem",
+        "origem": "Devoto Excomungado",
+        "proficiencia": "Investigação"
+      }
+    }
+  },
+  {
+    "name": "Origem: Caçado pela Justiça",
+    "type": "habilidade",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/lorc-handcuffs.svg",
+    "pasta": "Origens",
+    "system": {
+      "grupo": "Origem",
+      "custo": 0,
+      "prerequisito": "Origem",
+      "descricao": "Proficiência: Furtividade (não consome PE; se já possuir, escolha Percepção, Investigação, Furtividade ou Medicina).\n\nFardo: Existe uma acusação e uma recompensa por sua captura. Determine se a acusação é verdadeira.\n\nRegistre um detalhe concreto: o nome do credor, o segredo, a pessoa procurada ou a obrigação."
+    },
+    "flags": {
+      "sangue-escuro-fear-and-hunger": {
+        "tipo": "origem",
+        "origem": "Caçado pela Justiça",
+        "proficiencia": "Furtividade"
+      }
+    }
+  },
+  {
+    "name": "Origem: Servo de uma Casa Nobre",
+    "type": "habilidade",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/lorc-crowned-heart.svg",
+    "pasta": "Origens",
+    "system": {
+      "grupo": "Origem",
+      "custo": 0,
+      "prerequisito": "Origem",
+      "descricao": "Proficiência: Percepção (não consome PE; se já possuir, escolha Percepção, Investigação, Furtividade ou Medicina).\n\nFardo: Você conhece um segredo de seus antigos senhores. Eles precisam de seu silêncio ou de seu retorno.\n\nRegistre um detalhe concreto: o nome do credor, o segredo, a pessoa procurada ou a obrigação."
+    },
+    "flags": {
+      "sangue-escuro-fear-and-hunger": {
+        "tipo": "origem",
+        "origem": "Servo de uma Casa Nobre",
+        "proficiencia": "Percepção"
+      }
+    }
+  },
+  {
+    "name": "Origem: Cuidador dos Enfermos",
+    "type": "habilidade",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/delapouite-first-aid-kit.svg",
+    "pasta": "Origens",
+    "system": {
+      "grupo": "Origem",
+      "custo": 0,
+      "prerequisito": "Origem",
+      "descricao": "Proficiência: Medicina (não consome PE; se já possuir, escolha Percepção, Investigação, Furtividade ou Medicina).\n\nFardo: Você prometeu conseguir um tratamento para alguém. Essa pessoa continua em perigo enquanto você explora.\n\nRegistre um detalhe concreto: o nome do credor, o segredo, a pessoa procurada ou a obrigação."
+    },
+    "flags": {
+      "sangue-escuro-fear-and-hunger": {
+        "tipo": "origem",
+        "origem": "Cuidador dos Enfermos",
+        "proficiencia": "Medicina"
+      }
+    }
+  },
+  {
+    "name": "Origem: Sobrevivente das Profundezas",
+    "type": "habilidade",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/delapouite-miner.svg",
+    "pasta": "Origens",
+    "system": {
+      "grupo": "Origem",
+      "custo": 0,
+      "prerequisito": "Origem",
+      "descricao": "Proficiência: Percepção (não consome PE; se já possuir, escolha Percepção, Investigação, Furtividade ou Medicina).\n\nFardo: Você escapou deixando alguém para trás. Não sabe se essa pessoa morreu, mudou ou ainda espera por você.\n\nRegistre um detalhe concreto: o nome do credor, o segredo, a pessoa procurada ou a obrigação."
+    },
+    "flags": {
+      "sangue-escuro-fear-and-hunger": {
+        "tipo": "origem",
+        "origem": "Sobrevivente das Profundezas",
+        "proficiencia": "Percepção"
+      }
+    }
+  },
+  {
+    "name": "Origem: Herdeiro Endividado",
+    "type": "habilidade",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/delapouite-money-stack.svg",
+    "pasta": "Origens",
+    "system": {
+      "grupo": "Origem",
+      "custo": 0,
+      "prerequisito": "Origem",
+      "descricao": "Proficiência: Investigação (não consome PE; se já possuir, escolha Percepção, Investigação, Furtividade ou Medicina).\n\nFardo: Sua herança inclui uma dívida. O credor possui um direito concreto sobre seus bens, serviços ou descobertas.\n\nRegistre um detalhe concreto: o nome do credor, o segredo, a pessoa procurada ou a obrigação."
+    },
+    "flags": {
+      "sangue-escuro-fear-and-hunger": {
+        "tipo": "origem",
+        "origem": "Herdeiro Endividado",
+        "proficiencia": "Investigação"
+      }
+    }
+  },
+  {
+    "name": "Origem: Contrabandista",
+    "type": "habilidade",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/lorc-knapsack.svg",
+    "pasta": "Origens",
+    "system": {
+      "grupo": "Origem",
+      "custo": 0,
+      "prerequisito": "Origem",
+      "descricao": "Proficiência: Furtividade (não consome PE; se já possuir, escolha Percepção, Investigação, Furtividade ou Medicina).\n\nFardo: Uma entrega desapareceu sob sua responsabilidade. Seus antigos parceiros querem recuperar a carga.\n\nRegistre um detalhe concreto: o nome do credor, o segredo, a pessoa procurada ou a obrigação."
+    },
+    "flags": {
+      "sangue-escuro-fear-and-hunger": {
+        "tipo": "origem",
+        "origem": "Contrabandista",
+        "proficiencia": "Furtividade"
+      }
+    }
+  },
+  {
+    "name": "Origem: Assistente de Ocultista",
+    "type": "habilidade",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/lorc-magic-swirl.svg",
+    "pasta": "Origens",
+    "system": {
+      "grupo": "Origem",
+      "custo": 0,
+      "prerequisito": "Origem",
+      "descricao": "Proficiência: Investigação (não consome PE; se já possuir, escolha Percepção, Investigação, Furtividade ou Medicina).\n\nFardo: Seu mestre desapareceu após um ritual. Você possui parte do conhecimento que provocou o acontecimento.\n\nRegistre um detalhe concreto: o nome do credor, o segredo, a pessoa procurada ou a obrigação."
+    },
+    "flags": {
+      "sangue-escuro-fear-and-hunger": {
+        "tipo": "origem",
+        "origem": "Assistente de Ocultista",
+        "proficiencia": "Investigação"
+      }
+    }
+  },
+  {
+    "name": "Truque Piromântico",
+    "type": "habilidade",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/delapouite-fire-spell-cast.svg",
+    "pasta": "Magias",
+    "system": {
+      "grupo": "Magia",
+      "custo": 0,
+      "prerequisito": "Magia aprendida (pacto, instrução ou recompensa)",
+      "usos": {
+        "value": 1,
+        "max": 1,
+        "recarga": "longo"
+      },
+      "descricao": "Ataque mágico contra um alvo a até 9 m. Causa 1d6 de dano de fogo. Pode acender combustível exposto.\n\nMagia aprendida: uma vez entre Descansos Longos; custa 1 PV (sem redução por PR) e exige pelo menos 2 PV. Ataque mágico: d20 + SAB. CD: 10 + SAB."
+    },
+    "flags": {
+      "sangue-escuro-fear-and-hunger": {
+        "tipo": "magia",
+        "ataque": true,
+        "dano": "1d6",
+        "tipoDano": "Fogo",
+        "alcance": "9 m"
+      }
+    }
+  },
+  {
+    "name": "Pergaminho: Truque Piromântico",
+    "type": "equipamento",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/lorc-tied-scroll.svg",
+    "pasta": "Pergaminhos",
+    "system": {
+      "categoria": "documento",
+      "quantidade": 1,
+      "compartimentosFixos": 1,
+      "descricao": "Ataque mágico contra um alvo a até 9 m. Causa 1d6 de dano de fogo. Pode acender combustível exposto.\n\nConjurar custa 1 ação; é consumido. Não custa PV e não ensina a magia."
+    },
+    "flags": {
+      "sangue-escuro-fear-and-hunger": {
+        "tipo": "pergaminho",
+        "magia": "Truque Piromântico",
+        "ataque": true,
+        "dano": "1d6",
+        "tipoDano": "Fogo",
+        "alcance": "9 m"
+      }
+    }
+  },
+  {
+    "name": "Ferir",
+    "type": "habilidade",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/lorc-sword-wound.svg",
+    "pasta": "Magias",
+    "system": {
+      "grupo": "Magia",
+      "custo": 0,
+      "prerequisito": "Magia aprendida (pacto, instrução ou recompensa)",
+      "usos": {
+        "value": 1,
+        "max": 1,
+        "recarga": "longo"
+      },
+      "descricao": "Ataque mágico contra uma parte visível de um alvo a até 9 m. Causa 1d6 de dano sobrenatural e pode ser declarado como ataque letal. Ataques contra a cabeça seguem sua Desvantagem normal.\n\nMagia aprendida: uma vez entre Descansos Longos; custa 1 PV (sem redução por PR) e exige pelo menos 2 PV. Ataque mágico: d20 + SAB. CD: 10 + SAB."
+    },
+    "flags": {
+      "sangue-escuro-fear-and-hunger": {
+        "tipo": "magia",
+        "ataque": true,
+        "dano": "1d6",
+        "tipoDano": "Outro",
+        "alcance": "9 m"
+      }
+    }
+  },
+  {
+    "name": "Pergaminho: Ferir",
+    "type": "equipamento",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/lorc-tied-scroll.svg",
+    "pasta": "Pergaminhos",
+    "system": {
+      "categoria": "documento",
+      "quantidade": 1,
+      "compartimentosFixos": 1,
+      "descricao": "Ataque mágico contra uma parte visível de um alvo a até 9 m. Causa 1d6 de dano sobrenatural e pode ser declarado como ataque letal. Ataques contra a cabeça seguem sua Desvantagem normal.\n\nConjurar custa 1 ação; é consumido. Não custa PV e não ensina a magia."
+    },
+    "flags": {
+      "sangue-escuro-fear-and-hunger": {
+        "tipo": "pergaminho",
+        "magia": "Ferir",
+        "ataque": true,
+        "dano": "1d6",
+        "tipoDano": "Outro",
+        "alcance": "9 m"
+      }
+    }
+  },
+  {
+    "name": "Sussurros Amorosos",
+    "type": "habilidade",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/lorc-charm.svg",
+    "pasta": "Magias",
+    "system": {
+      "grupo": "Magia",
+      "custo": 0,
+      "prerequisito": "Magia aprendida (pacto, instrução ou recompensa)",
+      "usos": {
+        "value": 1,
+        "max": 1,
+        "recarga": "longo"
+      },
+      "descricao": "Uma criatura tocada recupera 1d4 + 1 PV. Não remove mutilações, doenças ou Exaustão.\n\nMagia aprendida: uma vez entre Descansos Longos; custa 1 PV (sem redução por PR) e exige pelo menos 2 PV. Ataque mágico: d20 + SAB. CD: 10 + SAB."
+    },
+    "flags": {
+      "sangue-escuro-fear-and-hunger": {
+        "tipo": "magia",
+        "cura": "1d4+1",
+        "alcance": "Toque"
+      }
+    }
+  },
+  {
+    "name": "Pergaminho: Sussurros Amorosos",
+    "type": "equipamento",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/lorc-tied-scroll.svg",
+    "pasta": "Pergaminhos",
+    "system": {
+      "categoria": "documento",
+      "quantidade": 1,
+      "compartimentosFixos": 1,
+      "descricao": "Uma criatura tocada recupera 1d4 + 1 PV. Não remove mutilações, doenças ou Exaustão.\n\nConjurar custa 1 ação; é consumido. Não custa PV e não ensina a magia."
+    },
+    "flags": {
+      "sangue-escuro-fear-and-hunger": {
+        "tipo": "pergaminho",
+        "magia": "Sussurros Amorosos",
+        "cura": "1d4+1",
+        "alcance": "Toque"
+      }
+    }
+  },
+  {
+    "name": "Luz Pálida",
+    "type": "habilidade",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/delapouite-sparkles.svg",
+    "pasta": "Magias",
+    "system": {
+      "grupo": "Magia",
+      "custo": 0,
+      "prerequisito": "Magia aprendida (pacto, instrução ou recompensa)",
+      "usos": {
+        "value": 1,
+        "max": 1,
+        "recarga": "longo"
+      },
+      "descricao": "Um objeto tocado ilumina como uma tocha por 1 hora. O efeito termina se a magia for conjurada novamente pelo mesmo personagem.\n\nMagia aprendida: uma vez entre Descansos Longos; custa 1 PV (sem redução por PR) e exige pelo menos 2 PV. Ataque mágico: d20 + SAB. CD: 10 + SAB."
+    },
+    "flags": {
+      "sangue-escuro-fear-and-hunger": {
+        "tipo": "magia",
+        "alcance": "Toque"
+      }
+    }
+  },
+  {
+    "name": "Pergaminho: Luz Pálida",
+    "type": "equipamento",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/lorc-tied-scroll.svg",
+    "pasta": "Pergaminhos",
+    "system": {
+      "categoria": "documento",
+      "quantidade": 1,
+      "compartimentosFixos": 1,
+      "descricao": "Um objeto tocado ilumina como uma tocha por 1 hora. O efeito termina se a magia for conjurada novamente pelo mesmo personagem.\n\nConjurar custa 1 ação; é consumido. Não custa PV e não ensina a magia."
+    },
+    "flags": {
+      "sangue-escuro-fear-and-hunger": {
+        "tipo": "pergaminho",
+        "magia": "Luz Pálida",
+        "alcance": "Toque"
+      }
+    }
+  },
+  {
+    "name": "Selo de Contenção",
+    "type": "habilidade",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/lorc-wax-seal.svg",
+    "pasta": "Magias",
+    "system": {
+      "grupo": "Magia",
+      "custo": 0,
+      "prerequisito": "Magia aprendida (pacto, instrução ou recompensa)",
+      "usos": {
+        "value": 1,
+        "max": 1,
+        "recarga": "longo"
+      },
+      "descricao": "Um alvo a até 6m realiza Força contra a CD de magia. Em caso de falha, seu deslocamento fica 0 até o início do próximo turno do conjurador. Não provoca Agarrado nem facilita ataques à cabeça.\n\nMagia aprendida: uma vez entre Descansos Longos; custa 1 PV (sem redução por PR) e exige pelo menos 2 PV. Ataque mágico: d20 + SAB. CD: 10 + SAB."
+    },
+    "flags": {
+      "sangue-escuro-fear-and-hunger": {
+        "tipo": "magia",
+        "teste": "Força",
+        "alcance": "6 m"
+      }
+    }
+  },
+  {
+    "name": "Pergaminho: Selo de Contenção",
+    "type": "equipamento",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/lorc-tied-scroll.svg",
+    "pasta": "Pergaminhos",
+    "system": {
+      "categoria": "documento",
+      "quantidade": 1,
+      "compartimentosFixos": 1,
+      "descricao": "Um alvo a até 6m realiza Força contra a CD de magia. Em caso de falha, seu deslocamento fica 0 até o início do próximo turno do conjurador. Não provoca Agarrado nem facilita ataques à cabeça.\n\nConjurar custa 1 ação; é consumido. Não custa PV e não ensina a magia."
+    },
+    "flags": {
+      "sangue-escuro-fear-and-hunger": {
+        "tipo": "pergaminho",
+        "magia": "Selo de Contenção",
+        "teste": "Força",
+        "alcance": "6 m"
+      }
+    }
+  },
+  {
+    "name": "Revelar Vestígios",
+    "type": "habilidade",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/lorc-magnifying-glass.svg",
+    "pasta": "Magias",
+    "system": {
+      "grupo": "Magia",
+      "custo": 0,
+      "prerequisito": "Magia aprendida (pacto, instrução ou recompensa)",
+      "usos": {
+        "value": 1,
+        "max": 1,
+        "recarga": "longo"
+      },
+      "descricao": "Durante 10 minutos, o conjurador recebe +2 em Investigação para reconhecer inscrições, resíduos e manifestações sobrenaturais. Não revela automaticamente armadilhas ou itens.\n\nMagia aprendida: uma vez entre Descansos Longos; custa 1 PV (sem redução por PR) e exige pelo menos 2 PV. Ataque mágico: d20 + SAB. CD: 10 + SAB."
+    },
+    "flags": {
+      "sangue-escuro-fear-and-hunger": {
+        "tipo": "magia",
+        "alcance": "Pessoal"
+      }
+    }
+  },
+  {
+    "name": "Pergaminho: Revelar Vestígios",
+    "type": "equipamento",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/lorc-tied-scroll.svg",
+    "pasta": "Pergaminhos",
+    "system": {
+      "categoria": "documento",
+      "quantidade": 1,
+      "compartimentosFixos": 1,
+      "descricao": "Durante 10 minutos, o conjurador recebe +2 em Investigação para reconhecer inscrições, resíduos e manifestações sobrenaturais. Não revela automaticamente armadilhas ou itens.\n\nConjurar custa 1 ação; é consumido. Não custa PV e não ensina a magia."
+    },
+    "flags": {
+      "sangue-escuro-fear-and-hunger": {
+        "tipo": "pergaminho",
+        "magia": "Revelar Vestígios",
+        "alcance": "Pessoal"
+      }
+    }
+  },
+  {
+    "name": "Purificação da Carne",
+    "type": "habilidade",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/delapouite-healing.svg",
+    "pasta": "Magias",
+    "system": {
+      "grupo": "Magia",
+      "custo": 0,
+      "prerequisito": "Magia aprendida (pacto, instrução ou recompensa)",
+      "usos": {
+        "value": 1,
+        "max": 1,
+        "recarga": "longo"
+      },
+      "descricao": "Após 10 minutos, encerra uma infecção comum em estágio inicial em uma criatura tocada. Não restaura tecido necrosado.\n\nMagia aprendida: uma vez entre Descansos Longos; custa 1 PV (sem redução por PR) e exige pelo menos 2 PV. Ataque mágico: d20 + SAB. CD: 10 + SAB."
+    },
+    "flags": {
+      "sangue-escuro-fear-and-hunger": {
+        "tipo": "magia",
+        "alcance": "Toque"
+      }
+    }
+  },
+  {
+    "name": "Pergaminho: Purificação da Carne",
+    "type": "equipamento",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/lorc-tied-scroll.svg",
+    "pasta": "Pergaminhos",
+    "system": {
+      "categoria": "documento",
+      "quantidade": 1,
+      "compartimentosFixos": 1,
+      "descricao": "Após 10 minutos, encerra uma infecção comum em estágio inicial em uma criatura tocada. Não restaura tecido necrosado.\n\nConjurar custa 1 ação; é consumido. Não custa PV e não ensina a magia."
+    },
+    "flags": {
+      "sangue-escuro-fear-and-hunger": {
+        "tipo": "pergaminho",
+        "magia": "Purificação da Carne",
+        "alcance": "Toque"
+      }
+    }
+  },
+  {
+    "name": "Pergaminho: Feitiço da Vitalidade",
+    "type": "equipamento",
+    "img": "modules/sangue-escuro-fear-and-hunger/assets/icones/lorc-tied-scroll.svg",
+    "pasta": "Pergaminhos",
+    "system": {
+      "categoria": "documento",
+      "quantidade": 1,
+      "compartimentosFixos": 1,
+      "descricao": "Disponível inicialmente apenas como pergaminho da Vitalidade. Remove 1 nível de Exaustão, incluindo Exaustão pela Morte e é consumido.\n\nConjurar custa 1 ação; é consumido. Não custa PV e não ensina a magia."
+    },
+    "flags": {
+      "sangue-escuro-fear-and-hunger": {
+        "tipo": "pergaminho",
+        "magia": "Feitiço da Vitalidade",
+        "alcance": "Toque",
+        "soPergaminho": true
+      }
+    }
+  }
+]

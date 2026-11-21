@@ -1,0 +1,36 @@
+<section class="se-painel">
+  <h3>Anatomia e mutilação
+    <span class="se-novo"><button type="button" class="se-botao pequeno" data-action="extensao" data-ext="fh-criatura" data-acao="restaurarTudo">Restaurar tudo</button></span>
+  </h3>
+  {{#if temAnatomia}}
+  {{#each anatomia}}
+  <div class="se-linha-item" style="grid-template-columns: 1fr auto">
+    <div class="se-item-info">
+      <strong>{{nome}} — limite {{limite}}{{#if destruida}} <span class="se-selo-aviso">Destruída</span>{{/if}}</strong>
+      <small>{{consequencia}}</small>
+    </div>
+    <div class="se-item-acoes">
+      <button type="button" class="se-botao {{#if destruida}}ativo{{/if}}" data-action="extensao" data-ext="fh-criatura" data-acao="alternarParte" data-i="{{i}}">{{#if destruida}}Restaurar{{else}}Destruir{{/if}}</button>
+    </div>
+  </div>
+  {{/each}}
+  {{else}}
+  <p class="se-vazio">Esta criatura não possui anatomia cadastrada.</p>
+  {{/if}}
+  <p class="se-dica">Com o módulo de combate, os ataques letais resolvem a mutilação sozinhos ao aplicar o dano; aqui você marca manualmente se preferir.</p>
+</section>
+
+<section class="se-painel">
+  <h3>Rito da Morte</h3>
+  {{#if rito.disponivel}}
+  <p><strong>Sinal:</strong> {{rito.sinal}}</p>
+  <p><strong>Interrupção:</strong> {{rito.interrupcao}}</p>
+  <div class="se-botoes-grade dois">
+    <button type="button" class="se-botao" data-action="extensao" data-ext="fh-criatura" data-acao="prepararRito">{{#if preparado}}Preparado{{else}}Preparar o Rito{{/if}}</button>
+    <button type="button" class="se-botao" data-action="extensao" data-ext="fh-criatura" data-acao="realizarRito">Lançar a moeda</button>
+  </div>
+  {{else}}
+  <p class="se-vazio">Esta criatura não possui Rito da Morte.</p>
+  {{/if}}
+  {{#if fobias}}<p class="se-dica">Fobias que ativa: {{fobias}}.</p>{{/if}}
+</section>

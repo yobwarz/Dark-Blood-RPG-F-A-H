@@ -1,0 +1,56 @@
+<section class="se-painel">
+  <h3>Magia</h3>
+  <div class="se-derivados" style="border:0; padding:0">
+    <div><span>Ataque mágico</span><strong>{{ataqueMagico}}</strong></div>
+    <div><span>CD das magias</span><strong>{{cd}}</strong></div>
+    <div><span>PV máx. por pactos</span><strong>−{{pvMaxPactos}}</strong></div>
+  </div>
+  <p class="se-dica">Magia aprendida: custa 1 PV (sem redução por PR), exige pelo menos 2 PV e só pode ser conjurada uma vez entre Descansos Longos. Pergaminho: sem custo de PV, consumido ao usar. Cada conjuração custa 1 ação; magias de ataque contam para o limite de ataques.</p>
+  {{#if bloqueada}}<p class="se-resultado falha">A União da Carne impede a conjuração de magias.</p>{{/if}}
+</section>
+
+<section class="se-painel">
+  <h3>Magias aprendidas</h3>
+  {{#each magias}}
+  <div class="se-linha-item" data-item-id="{{id}}">
+    <img src="{{img}}" alt="">
+    <div class="se-item-info"><strong>{{nome}}</strong><small>Alcance {{alcance}} · usos {{usos}}/{{usosMax}}{{#if ataque}} · ataque{{/if}} · {{resumo}}</small></div>
+    <div class="se-item-acoes">
+      <button type="button" class="se-botao" data-action="extensao" data-ext="fh-magia" data-acao="conjurar">Conjurar</button>
+    </div>
+  </div>
+  {{else}}
+  <p class="se-vazio">Nenhuma magia aprendida. Arraste do compêndio “Fear & Hunger: Itens”.</p>
+  {{/each}}
+</section>
+
+<section class="se-painel">
+  <h3>Pergaminhos</h3>
+  {{#each pergaminhos}}
+  <div class="se-linha-item" data-item-id="{{id}}">
+    <img src="{{img}}" alt="">
+    <div class="se-item-info"><strong>{{nome}}</strong><small>Quantidade {{quantidade}} · {{resumo}}</small></div>
+    <div class="se-item-acoes">
+      <button type="button" class="se-botao" data-action="extensao" data-ext="fh-magia" data-acao="pergaminho">Usar</button>
+    </div>
+  </div>
+  {{else}}
+  <p class="se-vazio">Nenhum pergaminho.</p>
+  {{/each}}
+</section>
+
+<section class="se-painel">
+  <h3>Pactos e sacrifícios
+    <span class="se-novo"><button type="button" class="se-botao pequeno" data-action="extensao" data-ext="fh-magia" data-acao="pactoAdd">Novo pacto</button></span>
+  </h3>
+  {{#each pactos}}
+  <div class="se-linha-item" style="grid-template-columns: 1fr auto">
+    <div class="se-item-info"><strong>{{preco}}</strong><small>{{beneficio}}{{#if pvMax}} · −{{pvMax}} PV máximos{{/if}}</small></div>
+    <div class="se-item-acoes">
+      <button type="button" class="se-icone" data-action="extensao" data-ext="fh-magia" data-acao="pactoDel" data-i="{{i}}" aria-label="Remover pacto">✕</button>
+    </div>
+  </div>
+  {{else}}
+  <p class="se-vazio">Nenhum pacto. Os efeitos de pactos e sacrifícios são permanentes.</p>
+  {{/each}}
+</section>

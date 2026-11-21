@@ -1,0 +1,364 @@
+{
+  "fonte": "https://game-icons.net",
+  "urlLicenca": "https://creativecommons.org/licenses/by/3.0/",
+  "modificacoes": "Nenhuma; originais preservados.",
+  "arquivos": [
+    {
+      "arquivo": "06_besta.png",
+      "autor": "Ver créditos do pacote original",
+      "origem": "Pacote PNG fornecido pelo criador do Sangue Escuro",
+      "licenca": "Pacote fornecido pelo criador",
+      "sha256": "e8a1237b828a0d032360eca4384ec95af10c32364846ede3d4593c7b818bc179"
+    },
+    {
+      "arquivo": "12_faca.png",
+      "autor": "Ver créditos do pacote original",
+      "origem": "Pacote PNG fornecido pelo criador do Sangue Escuro",
+      "licenca": "Pacote fornecido pelo criador",
+      "sha256": "a77ebacdb4cbf0055221910d51d2809388afec492e211f3acd0905ad5f4236a5"
+    },
+    {
+      "arquivo": "delapouite-bow-arrow.svg",
+      "autor": "delapouite",
+      "origem": "https://raw.githubusercontent.com/game-icons/icons/master/delapouite/bow-arrow.svg",
+      "licenca": "CC BY 3.0",
+      "sha256": "80de082a9804b2afea15e54ffe61b54b72ee1307fea3386aa881786132c5c1b0"
+    },
+    {
+      "arquivo": "delapouite-castle.svg",
+      "autor": "delapouite",
+      "origem": "https://raw.githubusercontent.com/game-icons/icons/master/delapouite/castle.svg",
+      "licenca": "CC BY 3.0",
+      "sha256": "cd139b91c11138daae1cc9e32cee5ca4e43e1f165ba6bde1297f30780608716b"
+    },
+    {
+      "arquivo": "delapouite-chest-armor.svg",
+      "autor": "delapouite",
+      "origem": "https://raw.githubusercontent.com/game-icons/icons/master/delapouite/chest-armor.svg",
+      "licenca": "CC BY 3.0",
+      "sha256": "aaffd4f871b76880a84f9330bc1ebb9416f69a0acd5e5283b81eed8dc441b7b8"
+    },
+    {
+      "arquivo": "delapouite-crowbar.svg",
+      "autor": "delapouite",
+      "origem": "https://raw.githubusercontent.com/game-icons/icons/master/delapouite/crowbar.svg",
+      "licenca": "CC BY 3.0",
+      "sha256": "d3b09e1a0fc4a92c5765fdeb1543f6e9721ece73243a8d66580af0ea778f67ea"
+    },
+    {
+      "arquivo": "delapouite-fire-spell-cast.svg",
+      "autor": "delapouite",
+      "origem": "https://raw.githubusercontent.com/game-icons/icons/master/delapouite/fire-spell-cast.svg",
+      "licenca": "CC BY 3.0",
+      "sha256": "de0c26cf8ce6ddd747870219a13b895b65f34b636c054a7c33af18f431ea6ddc"
+    },
+    {
+      "arquivo": "delapouite-first-aid-kit.svg",
+      "autor": "delapouite",
+      "origem": "https://raw.githubusercontent.com/game-icons/icons/master/delapouite/first-aid-kit.svg",
+      "licenca": "CC BY 3.0",
+      "sha256": "b235669e23d9b5b4c4c9d0bfa0d1154dace7e47152b5e9655028a974cc7a7326"
+    },
+    {
+      "arquivo": "delapouite-flanged-mace.svg",
+      "autor": "delapouite",
+      "origem": "https://raw.githubusercontent.com/game-icons/icons/master/delapouite/flanged-mace.svg",
+      "licenca": "CC BY 3.0",
+      "sha256": "11fd961620f37fb5fe9bc8f3b9af42bdf03782e64aeb6a172e843fe93fb3aab4"
+    },
+    {
+      "arquivo": "delapouite-flint-spark.svg",
+      "autor": "delapouite",
+      "origem": "https://raw.githubusercontent.com/game-icons/icons/master/delapouite/flint-spark.svg",
+      "licenca": "CC BY 3.0",
+      "sha256": "2520f54cbdf24f3cae543f76d0a781bdc5322d6f07a0eaa23ea8ef2ec9d93dd5"
+    },
+    {
+      "arquivo": "delapouite-healing.svg",
+      "autor": "delapouite",
+      "origem": "https://raw.githubusercontent.com/game-icons/icons/master/delapouite/healing.svg",
+      "licenca": "CC BY 3.0",
+      "sha256": "1469b2f79fe72774afc3995f6b3888406b620a4be18e2e1dfc55e450ee87a89f"
+    },
+    {
+      "arquivo": "delapouite-health-potion.svg",
+      "autor": "delapouite",
+      "origem": "https://raw.githubusercontent.com/game-icons/icons/master/delapouite/health-potion.svg",
+      "licenca": "CC BY 3.0",
+      "sha256": "53c32fe9f69f6e92868434e0cead3e283eb4340d6a629422283cdf4521cec8f5"
+    },
+    {
+      "arquivo": "delapouite-herbs-bundle.svg",
+      "autor": "delapouite",
+      "origem": "https://raw.githubusercontent.com/game-icons/icons/master/delapouite/herbs-bundle.svg",
+      "licenca": "CC BY 3.0",
+      "sha256": "e87e67b47664444e21b2a160e112b94338eed4d3ba7963755fd772ceafa01b1a"
+    },
+    {
+      "arquivo": "delapouite-medicine-pills.svg",
+      "autor": "delapouite",
+      "origem": "https://raw.githubusercontent.com/game-icons/icons/master/delapouite/medicine-pills.svg",
+      "licenca": "CC BY 3.0",
+      "sha256": "aa01d633f9d890c3ea666d739ca2973f4678e985ad094f250bf3309166c89ebe"
+    },
+    {
+      "arquivo": "delapouite-miner.svg",
+      "autor": "delapouite",
+      "origem": "https://raw.githubusercontent.com/game-icons/icons/master/delapouite/miner.svg",
+      "licenca": "CC BY 3.0",
+      "sha256": "bda07eed9ddcb54bd387530c7a6e7afe520df74b88555ff9b947703a7d4ec392"
+    },
+    {
+      "arquivo": "delapouite-money-stack.svg",
+      "autor": "delapouite",
+      "origem": "https://raw.githubusercontent.com/game-icons/icons/master/delapouite/money-stack.svg",
+      "licenca": "CC BY 3.0",
+      "sha256": "6fc77cf3e4359f07cbf88adfe3110f9ce721565f6161626e056acda86e40b272"
+    },
+    {
+      "arquivo": "delapouite-oil-can.svg",
+      "autor": "delapouite",
+      "origem": "https://raw.githubusercontent.com/game-icons/icons/master/delapouite/oil-can.svg",
+      "licenca": "CC BY 3.0",
+      "sha256": "2aca36143889fbd074de1b51935c18251ea3cb6073b92ef4dd5524b73f90f75a"
+    },
+    {
+      "arquivo": "delapouite-old-lantern.svg",
+      "autor": "delapouite",
+      "origem": "https://raw.githubusercontent.com/game-icons/icons/master/delapouite/old-lantern.svg",
+      "licenca": "CC BY 3.0",
+      "sha256": "f06677e846a6be234a8a0d3ce23fcd812176c70a0b5a5b8374a23403b5d5d371"
+    },
+    {
+      "arquivo": "delapouite-rolled-cloth.svg",
+      "autor": "delapouite",
+      "origem": "https://raw.githubusercontent.com/game-icons/icons/master/delapouite/rolled-cloth.svg",
+      "licenca": "CC BY 3.0",
+      "sha256": "6ad70c7b61e22f72f9e84292a93316340700649a6f0def33ee3069d71e9409fa"
+    },
+    {
+      "arquivo": "delapouite-rope-coil.svg",
+      "autor": "delapouite",
+      "origem": "https://raw.githubusercontent.com/game-icons/icons/master/delapouite/rope-coil.svg",
+      "licenca": "CC BY 3.0",
+      "sha256": "c02e110c6a96a071ac9142bc58e07efa309732b7f3f6dede9b0538dc40bf90a7"
+    },
+    {
+      "arquivo": "delapouite-soul-vessel.svg",
+      "autor": "delapouite",
+      "origem": "https://raw.githubusercontent.com/game-icons/icons/master/delapouite/soul-vessel.svg",
+      "licenca": "CC BY 3.0",
+      "sha256": "e4bcf5f594ccf55f2958b44dc2132bdc0188a93cd2693f9d8ff14472f16693e0"
+    },
+    {
+      "arquivo": "delapouite-sparkles.svg",
+      "autor": "delapouite",
+      "origem": "https://raw.githubusercontent.com/game-icons/icons/master/delapouite/sparkles.svg",
+      "licenca": "CC BY 3.0",
+      "sha256": "2c734c52cfb95776cf4d6a576273aff121f877fcb85cbce61660d7458c47fb20"
+    },
+    {
+      "arquivo": "delapouite-t-shirt.svg",
+      "autor": "delapouite",
+      "origem": "https://raw.githubusercontent.com/game-icons/icons/master/delapouite/t-shirt.svg",
+      "licenca": "CC BY 3.0",
+      "sha256": "a92212561a1b5ae4e0f69bed533e41a2c1450acc8ba7eada6d8fc56543e5cba9"
+    },
+    {
+      "arquivo": "delapouite-torch.svg",
+      "autor": "delapouite",
+      "origem": "https://raw.githubusercontent.com/game-icons/icons/master/delapouite/torch.svg",
+      "licenca": "CC BY 3.0",
+      "sha256": "cfdea5b80834d6f31db683af23632371b1ed7c1410debec4fcc167bb1380d05d"
+    },
+    {
+      "arquivo": "delapouite-war-axe.svg",
+      "autor": "delapouite",
+      "origem": "https://raw.githubusercontent.com/game-icons/icons/master/delapouite/war-axe.svg",
+      "licenca": "CC BY 3.0",
+      "sha256": "eaf7108711aab7b61285c879403060800ae28091b05356bbbfa5cd0759da3c3f"
+    },
+    {
+      "arquivo": "delapouite-wood-club.svg",
+      "autor": "delapouite",
+      "origem": "https://raw.githubusercontent.com/game-icons/icons/master/delapouite/wood-club.svg",
+      "licenca": "CC BY 3.0",
+      "sha256": "65341f7e1777368aa2eec416d322d41d7f66199c8f88a3a01ce2eb147b33a741"
+    },
+    {
+      "arquivo": "lorc-archery-target.svg",
+      "autor": "lorc",
+      "origem": "https://raw.githubusercontent.com/game-icons/icons/master/lorc/archery-target.svg",
+      "licenca": "CC BY 3.0",
+      "sha256": "e8583f21f1216fc7391f1ef1f37d4d6d6f25008443262397bc9a022b50d19a02"
+    },
+    {
+      "arquivo": "lorc-armor-vest.svg",
+      "autor": "lorc",
+      "origem": "https://raw.githubusercontent.com/game-icons/icons/master/lorc/armor-vest.svg",
+      "licenca": "CC BY 3.0",
+      "sha256": "d78ccd67384f62dd590d24f7af93d302b4ecb65b4b25224dc73f495681eb730f"
+    },
+    {
+      "arquivo": "lorc-bandage-roll.svg",
+      "autor": "lorc",
+      "origem": "https://raw.githubusercontent.com/game-icons/icons/master/lorc/bandage-roll.svg",
+      "licenca": "CC BY 3.0",
+      "sha256": "dc423b3e81b07efeea1e1847644ac5de35b7f6531fa749ae5812a43063d36a60"
+    },
+    {
+      "arquivo": "lorc-broadsword.svg",
+      "autor": "lorc",
+      "origem": "https://raw.githubusercontent.com/game-icons/icons/master/lorc/broadsword.svg",
+      "licenca": "CC BY 3.0",
+      "sha256": "37eda3d1e9c41d2389ed28e163472672391df6bd4e02b6e36e8acc37087e5079"
+    },
+    {
+      "arquivo": "lorc-charm.svg",
+      "autor": "lorc",
+      "origem": "https://raw.githubusercontent.com/game-icons/icons/master/lorc/charm.svg",
+      "licenca": "CC BY 3.0",
+      "sha256": "4b1e80c476633dba3ddfcb405c774441136af8917f6105d123667846666a9109"
+    },
+    {
+      "arquivo": "lorc-coffin.svg",
+      "autor": "lorc",
+      "origem": "https://raw.githubusercontent.com/game-icons/icons/master/lorc/coffin.svg",
+      "licenca": "CC BY 3.0",
+      "sha256": "3eb953136d2c62be4687e9c54c8ab26e9176a54d83e2825db23354488945372a"
+    },
+    {
+      "arquivo": "lorc-crossed-swords.svg",
+      "autor": "lorc",
+      "origem": "https://raw.githubusercontent.com/game-icons/icons/master/lorc/crossed-swords.svg",
+      "licenca": "CC BY 3.0",
+      "sha256": "d977de17aa347c15a311e96ee4c7194837e47d119d2b5a06bc1dbbd2cd1a92f2"
+    },
+    {
+      "arquivo": "lorc-crowned-heart.svg",
+      "autor": "lorc",
+      "origem": "https://raw.githubusercontent.com/game-icons/icons/master/lorc/crowned-heart.svg",
+      "licenca": "CC BY 3.0",
+      "sha256": "7b7095e5706f454feac3aa159d64339e523fec8119506f16309c4e7773a9659a"
+    },
+    {
+      "arquivo": "lorc-cultist.svg",
+      "autor": "lorc",
+      "origem": "https://raw.githubusercontent.com/game-icons/icons/master/lorc/cultist.svg",
+      "licenca": "CC BY 3.0",
+      "sha256": "833814e1f9d63be4f7751a7d0bc5e7b352ebf0ec45943979dbed6b0016920e1c"
+    },
+    {
+      "arquivo": "lorc-footprint.svg",
+      "autor": "lorc",
+      "origem": "https://raw.githubusercontent.com/game-icons/icons/master/lorc/footprint.svg",
+      "licenca": "CC BY 3.0",
+      "sha256": "0ac4184d7c3e7ce013adc2ce820fb221f24dc7c70d6a3a1592fb02d7197c16ee"
+    },
+    {
+      "arquivo": "lorc-guillotine.svg",
+      "autor": "lorc",
+      "origem": "https://raw.githubusercontent.com/game-icons/icons/master/lorc/guillotine.svg",
+      "licenca": "CC BY 3.0",
+      "sha256": "08290aa9d995a35c5ca0f308445fae85cb09f8dc61eabe123e4aac52b1d3dc10"
+    },
+    {
+      "arquivo": "lorc-handcuffs.svg",
+      "autor": "lorc",
+      "origem": "https://raw.githubusercontent.com/game-icons/icons/master/lorc/handcuffs.svg",
+      "licenca": "CC BY 3.0",
+      "sha256": "72310b61edba21ba65167a298d0e2fac6d60f2851ba7dd2adb929061b6958477"
+    },
+    {
+      "arquivo": "lorc-knapsack.svg",
+      "autor": "lorc",
+      "origem": "https://raw.githubusercontent.com/game-icons/icons/master/lorc/knapsack.svg",
+      "licenca": "CC BY 3.0",
+      "sha256": "d5f3f1b087b23f8a1082674b9ac19f1530b936802f8f1bb2982d5f7e03547396"
+    },
+    {
+      "arquivo": "lorc-leather-vest.svg",
+      "autor": "lorc",
+      "origem": "https://raw.githubusercontent.com/game-icons/icons/master/lorc/leather-vest.svg",
+      "licenca": "CC BY 3.0",
+      "sha256": "7a010652bc66be58420fd8ecb4ae4e9feee9657888aaa116f482fced6c894de6"
+    },
+    {
+      "arquivo": "lorc-magic-swirl.svg",
+      "autor": "lorc",
+      "origem": "https://raw.githubusercontent.com/game-icons/icons/master/lorc/magic-swirl.svg",
+      "licenca": "CC BY 3.0",
+      "sha256": "0caf11370169ccf706b8ff1beb6ac9f7d3246ac770063c654dd42df0f592addd"
+    },
+    {
+      "arquivo": "lorc-magnifying-glass.svg",
+      "autor": "lorc",
+      "origem": "https://raw.githubusercontent.com/game-icons/icons/master/lorc/magnifying-glass.svg",
+      "licenca": "CC BY 3.0",
+      "sha256": "089f628ebb75669198850f8a5caacb648f557e6844652709abcbd709f1f03037"
+    },
+    {
+      "arquivo": "lorc-mail-shirt.svg",
+      "autor": "lorc",
+      "origem": "https://raw.githubusercontent.com/game-icons/icons/master/lorc/mail-shirt.svg",
+      "licenca": "CC BY 3.0",
+      "sha256": "27785e256773e2b60428a57daf3d1c70cf416283292aada80dc8c858e6eaa6ef"
+    },
+    {
+      "arquivo": "lorc-rogue.svg",
+      "autor": "lorc",
+      "origem": "https://raw.githubusercontent.com/game-icons/icons/master/lorc/rogue.svg",
+      "licenca": "CC BY 3.0",
+      "sha256": "ae50e03cfa7e29d766da74e6210e4f427071d03040b3b137e3ac3ac3c721aeab"
+    },
+    {
+      "arquivo": "lorc-spears.svg",
+      "autor": "lorc",
+      "origem": "https://raw.githubusercontent.com/game-icons/icons/master/lorc/spears.svg",
+      "licenca": "CC BY 3.0",
+      "sha256": "5fc4ebfcdb559e980199e47c2e929fa915c785215f373b1e1dd75c9fc7de57f4"
+    },
+    {
+      "arquivo": "lorc-sword-wound.svg",
+      "autor": "lorc",
+      "origem": "https://raw.githubusercontent.com/game-icons/icons/master/lorc/sword-wound.svg",
+      "licenca": "CC BY 3.0",
+      "sha256": "8d2ea099a988cb1ac0a5216bb1bc671c9e5f20152ede2189ecb3e83fae0955c8"
+    },
+    {
+      "arquivo": "lorc-syringe.svg",
+      "autor": "lorc",
+      "origem": "https://raw.githubusercontent.com/game-icons/icons/master/lorc/syringe.svg",
+      "licenca": "CC BY 3.0",
+      "sha256": "59513a8b1292e06b3f3aad7524dd386e5d810909f940ba8433d9f863b01ea652"
+    },
+    {
+      "arquivo": "lorc-tied-scroll.svg",
+      "autor": "lorc",
+      "origem": "https://raw.githubusercontent.com/game-icons/icons/master/lorc/tied-scroll.svg",
+      "licenca": "CC BY 3.0",
+      "sha256": "8dec10d48e8c0012a30d7146b4187e8ed9aa016029de5f87cc254c129dc3c1d6"
+    },
+    {
+      "arquivo": "lorc-wax-seal.svg",
+      "autor": "lorc",
+      "origem": "https://raw.githubusercontent.com/game-icons/icons/master/lorc/wax-seal.svg",
+      "licenca": "CC BY 3.0",
+      "sha256": "754bdfc2ac92da1b821378a9aa5fad53016809256693108a6bdd59731a82f2e0"
+    },
+    {
+      "arquivo": "sbed-vial.svg",
+      "autor": "sbed",
+      "origem": "https://raw.githubusercontent.com/game-icons/icons/master/sbed/vial.svg",
+      "licenca": "CC BY 3.0",
+      "sha256": "42347a05738398b2d07bad19528610daa09e7dab1705e5e7191cb2eb1811d00a"
+    },
+    {
+      "arquivo": "skoll-pestle-mortar.svg",
+      "autor": "skoll",
+      "origem": "https://raw.githubusercontent.com/game-icons/icons/master/skoll/pestle-mortar.svg",
+      "licenca": "CC BY 3.0",
+      "sha256": "5272ef06ac76fb3e7708516c41a73e8d4f5ff5af3f72e2d1901cf50e6c224c36"
+    }
+  ]
+}

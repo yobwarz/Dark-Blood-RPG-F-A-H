@@ -1,0 +1,187 @@
+{
+ "descobertas": [
+  {
+   "min": 1,
+   "max": 5,
+   "texto": "Um achado raríssimo."
+  },
+  {
+   "min": 6,
+   "max": 15,
+   "texto": "Role na tabela de Achados Valiosos."
+  },
+  {
+   "min": 16,
+   "max": 100,
+   "texto": "Role na tabela de Achados Comuns."
+  }
+ ],
+ "achadosComuns": [
+  {
+   "min": 1,
+   "max": 1,
+   "texto": "Fragmentos de cerâmica sem valor."
+  },
+  {
+   "min": 2,
+   "max": 2,
+   "texto": "Pano apodrecido e inutilizável para tratamento."
+  },
+  {
+   "min": 3,
+   "max": 3,
+   "texto": "Um utensílio quebrado."
+  },
+  {
+   "min": 4,
+   "max": 4,
+   "texto": "Uma carta ilegível ou páginas destruídas."
+  },
+  {
+   "min": 5,
+   "max": 5,
+   "texto": "Uma porção de comida preservada."
+  },
+  {
+   "min": 6,
+   "max": 6,
+   "texto": "Uma porção de alimento suspeito."
+  },
+  {
+   "min": 7,
+   "max": 7,
+   "texto": "Um frasco de água potável de 500 mL."
+  },
+  {
+   "min": 8,
+   "max": 8,
+   "texto": "Uma bandagem limpa."
+  },
+  {
+   "min": 9,
+   "max": 9,
+   "texto": "Uma tocha utilizável."
+  },
+  {
+   "min": 10,
+   "max": 10,
+   "texto": "Um frasco de óleo para iluminação."
+  },
+  {
+   "min": 11,
+   "max": 11,
+   "texto": "Uma ferramenta simples apropriada ao local."
+  },
+  {
+   "min": 12,
+   "max": 12,
+   "texto": "Uma faca ou arma improvisada utilizável."
+  }
+ ],
+ "achadosValiosos": [
+  {
+   "min": 1,
+   "max": 3,
+   "texto": "Um pergaminho de magia utilizável."
+  },
+  {
+   "min": 4,
+   "max": 5,
+   "texto": "Uma arma em boas condições."
+  },
+  {
+   "min": 6,
+   "max": 7,
+   "texto": "Um traje com proteção."
+  },
+  {
+   "min": 8,
+   "max": 8,
+   "texto": "Um conjunto de tratamento com 3 usos."
+  },
+  {
+   "min": 9,
+   "max": 9,
+   "texto": "Um remédio específico para uma doença ou condição existente na aventura."
+  },
+  {
+   "min": 10,
+   "max": 10,
+   "texto": "Uma Moeda do Destino. Se a reserva coletiva estiver cheia, encontre um pergaminho."
+  }
+ ],
+ "recompensaCriatura": [
+  {
+   "min": 1,
+   "max": 5,
+   "texto": "Um Elixir da Saúde ou Pergaminho da Vitalidade."
+  },
+  {
+   "min": 6,
+   "max": 100,
+   "texto": "Nenhum recurso restaurador."
+  }
+ ],
+ "fobias": [
+  {
+   "n": 1,
+   "nome": "Necrofobia",
+   "gatilho": "Mortos-vivos, cadáveres que se movem e ameaças que imitam pessoas mortas.",
+   "adulto": false
+  },
+  {
+   "n": 2,
+   "nome": "Fasmofobia",
+   "gatilho": "Fantasmas, aparições e presenças incorpóreas.",
+   "adulto": false
+  },
+  {
+   "n": 3,
+   "nome": "Rabdofobia",
+   "gatilho": "Conjuração hostil, rituais ameaçadores e manifestações sobrenaturais perceptíveis.",
+   "adulto": false
+  },
+  {
+   "n": 4,
+   "nome": "Erotofobia",
+   "gatilho": "Ameaças de natureza sexual e manifestações corporais ou rituais íntimos percebidos como ameaçadores.",
+   "adulto": true
+  },
+  {
+   "n": 5,
+   "nome": "Zoofobia",
+   "gatilho": "Animais hostis e criaturas de aparência predominantemente bestial.",
+   "adulto": false
+  },
+  {
+   "n": 6,
+   "nome": "Teratofobia",
+   "gatilho": "Aberrações, deformações sobrenaturais e transformações corporais monstruosas.",
+   "adulto": false
+  },
+  {
+   "n": 7,
+   "nome": "Nosofobia",
+   "gatilho": "Criaturas visivelmente infectadas, ambientes contaminados e contato iminente com doenças.",
+   "adulto": false
+  },
+  {
+   "n": 8,
+   "nome": "Nictofobia",
+   "gatilho": "Escuridão que impeça reconhecer os arredores ou identificar uma ameaça próxima.",
+   "adulto": false
+  },
+  {
+   "n": 9,
+   "nome": "Claustrofobia",
+   "gatilho": "Túneis estreitos, caixões, passagens apertadas e confinamento sem saída acessível.",
+   "adulto": false
+  },
+  {
+   "n": 10,
+   "nome": "Pirofobia",
+   "gatilho": "Incêndios, aproximação de chamas e ataques de fogo. Uma fonte pequena e controlada não ativa a fobia por si só.",
+   "adulto": false
+  }
+ ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "sangue-escuro-fear-and-hunger",
+  "title": "Sangue Escuro: Fear & Hunger (Expansão)",
+  "description": "Cenário de Fear & Hunger para o Sangue Escuro: limite de ataques, Esquiva, ataques letais e mutilação, Rito da Morte e Moedas do Destino, retorno e Exaustão pela Morte, magia e pactos, fobias, infecção de ferimento, compêndios e criaturas. Cada parte pode ser ligada ou desligada. Obra de fã, gratuita e não oficial.",
+  "version": "0.1.4",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "Sangue Escuro"
+    }
+  ],
+  "esmodules": [
+    "scripts/main.mjs"
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "sangue-escuro",
+        "type": "system",
+        "compatibility": {
+          "minimum": "0.7.0"
+        }
+      }
+    ]
+  },
+  "styles": [
+    "styles/icones.css"
+  ],
+  "url": "https://github.com/yobwarz/Dark-Blood-RPG-F-A-H",
+  "manifest": "https://raw.githubusercontent.com/yobwarz/Dark-Blood-RPG-F-A-H/main/module.json",
+  "download": "https://raw.githubusercontent.com/yobwarz/Dark-Blood-RPG-F-A-H/v0.1.4/dist/sangue-escuro-fear-and-hunger.zip"
+}

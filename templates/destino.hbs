@@ -1,0 +1,48 @@
+{{#if mostrarMorte}}
+<section class="se-painel">
+  <h3>Moedas do Destino</h3>
+  <div class="se-pips">
+    {{#each pipsMoedas}}<span class="se-pip grande {{#if cheio}}cheio{{/if}}" style="display:inline-block" aria-hidden="true"></span>{{/each}}
+    <span class="se-dica" style="margin-left:8px">Reserva coletiva: {{moedas}}/{{limiteMoedas}}</span>
+  </div>
+  <div class="se-botoes-grade">
+    <button type="button" class="se-botao" data-action="extensao" data-ext="fh-destino" data-acao="obterMoeda" title="Após derrotar uma criatura: 1d100, 01–25 concede uma moeda">Obter moeda (1d100 ≤ 25)</button>
+    <button type="button" class="se-botao" data-action="extensao" data-ext="fh-destino" data-acao="rito" title="Cara: vitória da criatura (4 ações). Coroa: ela morre.">Rito da Morte (lançar moeda)</button>
+    {{#if ehGM}}
+    <button type="button" class="se-botao" data-action="extensao" data-ext="fh-destino" data-acao="moedaMais">+1 moeda (Mestre)</button>
+    <button type="button" class="se-botao" data-action="extensao" data-ext="fh-destino" data-acao="moedaMenos">−1 moeda (Mestre)</button>
+    {{/if}}
+  </div>
+  <p class="se-dica">A moeda re-lança o Rito da Morte de uma criatura. A reserva é compartilhada por todo o grupo (máximo de {{limiteMoedas}}).</p>
+</section>
+
+<section class="se-painel">
+  <h3>Morte e Retorno</h3>
+  <div class="se-derivados" style="border:0; padding:0">
+    <div><span>Exaustão comum</span><strong>{{exaustaoNormal}}</strong></div>
+    <div><span>Exaustão pela Morte</span><strong>{{mortes}}</strong></div>
+    <div><span>Total / limite</span><strong>{{exaustaoTotal}}/{{limite}}</strong></div>
+    <div><span>Retornos</span><strong>{{retornos}}</strong></div>
+  </div>
+  <label>Ponto de descanso (registre ao descansar em um local seguro)
+    <input type="text" name="flags.sangue-escuro-fear-and-hunger.pontoDescanso" value="{{ponto}}" placeholder="Ex.: Santuário da fonte">
+  </label>
+  <div class="se-botoes-grade">
+    <button type="button" class="se-botao" data-action="extensao" data-ext="fh-destino" data-acao="retornoManual">Retornar ao ponto de descanso</button>
+    <button type="button" class="se-botao" data-action="extensao" data-ext="fh-destino" data-acao="removerMorte">Remover 1 Exaustão pela Morte</button>
+  </div>
+  <p class="se-dica">A Exaustão pela Morte soma-se à comum (−2 por nível em todo d20) e só é removida por Elixir da Saúde, Pergaminho da Vitalidade ou recurso que declare essa capacidade. O Descanso Longo remove apenas a Exaustão comum. Com {{limite}} níveis totais, a morte é definitiva.</p>
+  {{#if glitches}}<p class="se-nota">Já ocorreram 3 ou mais retornos: o personagem pode tentar descobrir um glitch (INT CD 14) após cada retorno.</p>{{/if}}
+</section>
+{{/if}}
+
+{{#if mostrarExploracao}}
+<section class="se-painel">
+  <h3>Exploração</h3>
+  <div class="se-botoes-grade dois">
+    <button type="button" class="se-botao" data-action="extensao" data-ext="fh-destino" data-acao="descobertas">Descobertas (1d100)</button>
+    <button type="button" class="se-botao" data-action="extensao" data-ext="fh-destino" data-acao="recompensa">Recompensa de criatura (1d100)</button>
+  </div>
+  <p class="se-dica">Cada ponto investigável oferece uma única rolagem compartilhada pelo grupo. O Mestre diz quando rolar.</p>
+</section>
+{{/if}}
