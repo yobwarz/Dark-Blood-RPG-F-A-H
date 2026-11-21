@@ -1,4 +1,4 @@
-## Dark Blood: Fear and Hunger [Expansão][Bundle Standard]
+## Dark Blood: Fear and Hunger [Expansão] + [Bundle Standard]
 
 ### Sobre a Expansão
 *Nas masmorras profundas, a morte nem sempre encerra o sofrimento.*
